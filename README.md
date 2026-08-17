@@ -1,53 +1,53 @@
-# Day 03: User Inputs, Operations & Output 🖥️
+# Day 04: User Inputs, Operations & Output 🖥️
 
 ## 📌 Overview
-- **Day:** 3 / 100
+- **Day:** 4 / 100
 - **Topic:** User Inputs, Operations & Output 🖥️
-- **Problems Covered:** Problem 5, Problem 6
+- **Problems Covered:** Problem 7, Problem 8
 
 ---
 
-## 📝 Problem 5
+## 📝 Problem 7
 
 ### Problem Statement
-Write a program to convert temperature from Celsius to Fahrenheit.
+Write a program to swap two numbers without using a third variable.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `0`
-- **Output:** `Fahrenheit=32`
+- **Input:** `10 20`
+- **Output:** `After swap: 20 10`
 
 #### Case 2
-- **Input:** `100`
-- **Output:** `Fahrenheit=212`
+- **Input:** `7 14`
+- **Output:** `After swap: 14 7`
 
 ---
 
-## 📝 Problem 6
+## 📝 Problem 8
 
 ### Problem Statement
-Write a program to swap two numbers using a third variable.
+Write a program to find and display the sum of the first n natural numbers.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `3 5`
-- **Output:** `After swap: 5 3`
+- **Input:** `5`
+- **Output:** `Sum=15`
 
 #### Case 2
-- **Input:** `-1 1`
-- **Output:** `After swap: 1 -1`
+- **Input:** `10`
+- **Output:** `Sum=55`
 
 ---
 
 ## 💻 Solutions & Code
-- [`swap_num.c`](./swap_num.c)
-- [`temp.c`](./temp.c)
+- [`sum_n_natural.c`](./sum_n_natural.c)
+- [`swap_without_var.c`](./swap_without_var.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 02](../day_02/README.md)
-- [➡️ Next: Day 04](../day_04/README.md)
+- [⬅️ Previous: Day 03](../day_03/README.md)
+- [➡️ Next: Day 05](../day_05/README.md)
 
