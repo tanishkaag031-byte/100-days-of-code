@@ -1,53 +1,53 @@
-# Day 04: User Inputs, Operations & Output 🖥️
+# Day 05: User Inputs, Operations & Output 🖥️
 
 ## 📌 Overview
-- **Day:** 4 / 100
+- **Day:** 5 / 100
 - **Topic:** User Inputs, Operations & Output 🖥️
-- **Problems Covered:** Problem 7, Problem 8
+- **Problems Covered:** Problem 9, Problem 10
 
 ---
 
-## 📝 Problem 7
+## 📝 Problem 9
 
 ### Problem Statement
-Write a program to swap two numbers without using a third variable.
+Write a program to calculate simple and compound interest for given principal, rate, and time.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `10 20`
-- **Output:** `After swap: 20 10`
+- **Input:** `1000 5 2`
+- **Output:** `Simple Interest=100, Compound Interest=102.5`
 
 #### Case 2
-- **Input:** `7 14`
-- **Output:** `After swap: 14 7`
+- **Input:** `5000 7 3`
+- **Output:** `Simple Interest=1050, Compound Interest=1125.76`
 
 ---
 
-## 📝 Problem 8
+## 📝 Problem 10
 
 ### Problem Statement
-Write a program to find and display the sum of the first n natural numbers.
+Write a program to input time in seconds and convert it to hours:minutes:seconds format.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `5`
-- **Output:** `Sum=15`
+- **Input:** `3661`
+- **Output:** `1:1:1`
 
 #### Case 2
-- **Input:** `10`
-- **Output:** `Sum=55`
+- **Input:** `7322`
+- **Output:** `2:2:2`
 
 ---
 
 ## 💻 Solutions & Code
-- [`sum_n_natural.c`](./sum_n_natural.c)
-- [`swap_without_var.c`](./swap_without_var.c)
+- [`interest.c`](./interest.c)
+- [`time.c`](./time.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 03](../day_03/README.md)
-- [➡️ Next: Day 05](../day_05/README.md)
+- [⬅️ Previous: Day 04](../day_04/README.md)
+- [➡️ Next: Day 06](../day_06/README.md)
 
