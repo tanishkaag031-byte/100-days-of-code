@@ -1,53 +1,57 @@
-# Day 05: User Inputs, Operations & Output 🖥️
+# Day 06: Conditional Statements 🔀
 
 ## 📌 Overview
-- **Day:** 5 / 100
-- **Topic:** User Inputs, Operations & Output 🖥️
-- **Problems Covered:** Problem 9, Problem 10
+- **Day:** 6 / 100
+- **Topic:** Conditional Statements 🔀
+- **Problems Covered:** Problem 11, Problem 12
 
 ---
 
-## 📝 Problem 9
+## 📝 Problem 11
 
 ### Problem Statement
-Write a program to calculate simple and compound interest for given principal, rate, and time.
+Write a program to input an integer and check whether it is even or odd using if–else.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `1000 5 2`
-- **Output:** `Simple Interest=100, Compound Interest=102.5`
+- **Input:** `7`
+- **Output:** `7 is odd`
 
 #### Case 2
-- **Input:** `5000 7 3`
-- **Output:** `Simple Interest=1050, Compound Interest=1125.76`
+- **Input:** `12`
+- **Output:** `12 is even`
 
 ---
 
-## 📝 Problem 10
+## 📝 Problem 12
 
 ### Problem Statement
-Write a program to input time in seconds and convert it to hours:minutes:seconds format.
+Write a program to input an integer and check whether it is positive, negative or zero using nested if–else.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `3661`
-- **Output:** `1:1:1`
+- **Input:** `-5`
+- **Output:** `Negative`
 
 #### Case 2
-- **Input:** `7322`
-- **Output:** `2:2:2`
+- **Input:** `0`
+- **Output:** `Zero`
+
+#### Case 3
+- **Input:** `10`
+- **Output:** `Positive`
 
 ---
 
 ## 💻 Solutions & Code
-- [`interest.c`](./interest.c)
-- [`time.c`](./time.c)
+- [`int.c`](./int.c)
+- [`odd_even.c`](./odd_even.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 04](../day_04/README.md)
-- [➡️ Next: Day 06](../day_06/README.md)
+- [⬅️ Previous: Day 05](../day_05/README.md)
+- [➡️ Next: Day 07](../day_07/README.md)
 
