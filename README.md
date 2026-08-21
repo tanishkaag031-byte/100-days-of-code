@@ -1,59 +1,61 @@
-# Day 07: Conditional Statements 🔀
+# Day 08: Conditional Statements 🔀
 
 ## 📌 Overview
-- **Day:** 7 / 100
+- **Day:** 8 / 100
 - **Topic:** Conditional Statements 🔀
-- **Problems Covered:** Problem 13, Problem 14
+- **Problems Covered:** Problem 15, Problem 16
 
 ---
 
-## 📝 Problem 13
+## 📝 Problem 15
 
 ### Problem Statement
-Write a program to input a year and check whether it is a leap year or not using conditional statements.
-
-> 💡 **Note:** Year is a leap year if divisible by 4 but not 100, except if divisible by 400.
+Write a program to input a character and check whether it is an uppercase alphabet, lowercase alphabet, digit, or special character.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `2020`
-- **Output:** `Leap year`
+- **Input:** `A`
+- **Output:** `Uppercase alphabet`
 
 #### Case 2
-- **Input:** `1900`
-- **Output:** `Not a leap year`
+- **Input:** `a`
+- **Output:** `Lowercase alphabet`
 
 #### Case 3
-- **Input:** `2000`
-- **Output:** `Leap year`
+- **Input:** `3`
+- **Output:** `Digit`
+
+#### Case 4
+- **Input:** `#`
+- **Output:** `Special character`
 
 ---
 
-## 📝 Problem 14
+## 📝 Problem 16
 
 ### Problem Statement
-Write a program to input a character and check whether it is a vowel or consonant using if–else.
+Write a program to input three numbers and find the largest among them using if–else.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `a`
-- **Output:** `Vowel`
+- **Input:** `3 7 5`
+- **Output:** `Largest is 7`
 
 #### Case 2
-- **Input:** `b`
-- **Output:** `Consonant`
+- **Input:** `-1 -5 0`
+- **Output:** `Largest is 0`
 
 ---
 
 ## 💻 Solutions & Code
-- [`leap.c`](./leap.c)
-- [`vowel.c`](./vowel.c)
+- [`alphabet.c`](./alphabet.c)
+- [`largest_num.c`](./largest_num.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 06](../day_06/README.md)
-- [➡️ Next: Day 08](../day_08/README.md)
+- [⬅️ Previous: Day 07](../day_07/README.md)
+- [➡️ Next: Day 09](../day_09/README.md)
 
