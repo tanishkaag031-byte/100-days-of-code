@@ -1,57 +1,73 @@
-# Day 11: Conditional Statements 🔀
+# Day 12: Conditional Statements 🔀
 
 ## 📌 Overview
-- **Day:** 11 / 100
+- **Day:** 12 / 100
 - **Topic:** Conditional Statements 🔀
-- **Problems Covered:** Problem 21, Problem 22
+- **Problems Covered:** Problem 23, Problem 24
 
 ---
 
-## 📝 Problem 21
+## 📝 Problem 23
 
 ### Problem Statement
-Write a program to display the month name and number of days using switch-case for a given month number.
+Write a program to calculate library fine based on late days as follows: 
+First 5 days late: ₹2/day 
+Next 5 days late: ₹4/day 
+Next 20 days days late: ₹6/day 
+More than 30 days: Membership Cancelled.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `2`
-- **Output:** `February, 28 days`
+- **Input:** `4`
+- **Output:** `Fine ₹8`
 
 #### Case 2
-- **Input:** `12`
-- **Output:** `December, 31 days`
-
----
-
-## 📝 Problem 22
-
-### Problem Statement
-Write a program to find profit or loss percentage given cost price and selling price.
-
-### Test Cases
-
-#### Case 1
-- **Input:** `1000 1200`
-- **Output:** `Profit 20%`
-
-#### Case 2
-- **Input:** `1000 800`
-- **Output:** `Loss 20%`
+- **Input:** `8`
+- **Output:** `Fine ₹22`
 
 #### Case 3
-- **Input:** `1000 1000`
-- **Output:** `No Profit No Loss`
+- **Input:** `15`
+- **Output:** `Fine ₹60`
+
+#### Case 4
+- **Input:** `31`
+- **Output:** `Membership Cancelled`
+
+---
+
+## 📝 Problem 24
+
+### Problem Statement
+Write a program to calculate electricity bill based on units consumed with these rates: 
+First 100 units at ₹5/unit 
+Next 100 units at ₹7/unit 
+Next 100 units at ₹10/unit 
+Above at ₹12/unit
+
+### Test Cases
+
+#### Case 1
+- **Input:** `50`
+- **Output:** `Bill: ₹250`
+
+#### Case 2
+- **Input:** `150`
+- **Output:** `Bill: ₹850`
+
+#### Case 3
+- **Input:** `250`
+- **Output:** `Bill: ₹1700`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Profit_Loss.c`](./Profit_Loss.c)
-- [`month.c`](./month.c)
+- [`Electricity_bill.c`](./Electricity_bill.c)
+- [`lib_membership.c`](./lib_membership.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 10](../day_10/README.md)
-- [➡️ Next: Day 12](../day_12/README.md)
+- [⬅️ Previous: Day 11](../day_11/README.md)
+- [➡️ Next: Day 13](../day_13/README.md)
 
