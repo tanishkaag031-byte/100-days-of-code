@@ -1,73 +1,57 @@
-# Day 12: Conditional Statements 🔀
+# Day 13: Conditional Statements 🔀 / Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 12 / 100
-- **Topic:** Conditional Statements 🔀
-- **Problems Covered:** Problem 23, Problem 24
+- **Day:** 13 / 100
+- **Topic:** Conditional Statements 🔀 / Loops without Arrays/Strings 🔁
+- **Problems Covered:** Problem 25, Problem 26
 
 ---
 
-## 📝 Problem 23
+## 📝 Problem 25
 
 ### Problem Statement
-Write a program to calculate library fine based on late days as follows: 
-First 5 days late: ₹2/day 
-Next 5 days late: ₹4/day 
-Next 20 days days late: ₹6/day 
-More than 30 days: Membership Cancelled.
+Write a program to implement a basic calculator using switch-case for +, -, *, /, %.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `4`
-- **Output:** `Fine ₹8`
+- **Input:** `4 2 +`
+- **Output:** `6`
 
 #### Case 2
-- **Input:** `8`
-- **Output:** `Fine ₹22`
+- **Input:** `10 3 %`
+- **Output:** `1`
 
 #### Case 3
-- **Input:** `15`
-- **Output:** `Fine ₹60`
-
-#### Case 4
-- **Input:** `31`
-- **Output:** `Membership Cancelled`
+- **Input:** `15 5 /`
+- **Output:** `3`
 
 ---
 
-## 📝 Problem 24
+## 📝 Problem 26
 
 ### Problem Statement
-Write a program to calculate electricity bill based on units consumed with these rates: 
-First 100 units at ₹5/unit 
-Next 100 units at ₹7/unit 
-Next 100 units at ₹10/unit 
-Above at ₹12/unit
+Write a program to print numbers from 1 to n.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `50`
-- **Output:** `Bill: ₹250`
+- **Input:** `5`
+- **Output:** `1 2 3 4 5`
 
 #### Case 2
-- **Input:** `150`
-- **Output:** `Bill: ₹850`
-
-#### Case 3
-- **Input:** `250`
-- **Output:** `Bill: ₹1700`
+- **Input:** `3`
+- **Output:** `1 2 3`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Electricity_bill.c`](./Electricity_bill.c)
-- [`lib_membership.c`](./lib_membership.c)
+- [`1_to_n.c`](./1_to_n.c)
+- [`basic_calculator.c`](./basic_calculator.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 11](../day_11/README.md)
-- [➡️ Next: Day 13](../day_13/README.md)
+- [⬅️ Previous: Day 12](../day_12/README.md)
+- [➡️ Next: Day 14](../day_14/README.md)
 
