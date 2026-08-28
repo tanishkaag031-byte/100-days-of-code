@@ -1,53 +1,53 @@
-# Day 14: Loops without Arrays/Strings 🔁
+# Day 15: Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 14 / 100
+- **Day:** 15 / 100
 - **Topic:** Loops without Arrays/Strings 🔁
-- **Problems Covered:** Problem 27, Problem 28
+- **Problems Covered:** Problem 29, Problem 30
 
 ---
 
-## 📝 Problem 27
+## 📝 Problem 29
 
 ### Problem Statement
-Write a program to print the sum of the first n odd numbers.
+Write a program to calculate the factorial of a number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `3`
-- **Output:** `9`
-
-#### Case 2
 - **Input:** `5`
-- **Output:** `25`
+- **Output:** `120`
+
+#### Case 2
+- **Input:** `3`
+- **Output:** `6`
 
 ---
 
-## 📝 Problem 28
+## 📝 Problem 30
 
 ### Problem Statement
-Write a program to print the product of even numbers from 1 to n.
+Write a program to reverse a given number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `4`
-- **Output:** `8 (2 * 4)`
+- **Input:** `1234`
+- **Output:** `4321`
 
 #### Case 2
-- **Input:** `6`
-- **Output:** `48 (2 * 4 * 6)`
+- **Input:** `100`
+- **Output:** `1`
 
 ---
 
 ## 💻 Solutions & Code
-- [`sum_n_even.c`](./sum_n_even.c)
-- [`sum_n_odd.c`](./sum_n_odd.c)
+- [`Reverse_number.c`](./Reverse_number.c)
+- [`factorial.c`](./factorial.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 13](../day_13/README.md)
-- [➡️ Next: Day 15](../day_15/README.md)
+- [⬅️ Previous: Day 14](../day_14/README.md)
+- [➡️ Next: Day 16](../day_16/README.md)
 
