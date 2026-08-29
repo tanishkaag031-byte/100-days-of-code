@@ -1,53 +1,53 @@
-# Day 15: Loops without Arrays/Strings 🔁
+# Day 16: Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 15 / 100
+- **Day:** 16 / 100
 - **Topic:** Loops without Arrays/Strings 🔁
-- **Problems Covered:** Problem 29, Problem 30
+- **Problems Covered:** Problem 31, Problem 32
 
 ---
 
-## 📝 Problem 29
+## 📝 Problem 31
 
 ### Problem Statement
-Write a program to calculate the factorial of a number.
+Write a program to take a number as input and print its equivalent binary representation.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `5`
-- **Output:** `120`
+- **Input:** `10`
+- **Output:** `1010`
 
 #### Case 2
-- **Input:** `3`
-- **Output:** `6`
+- **Input:** `7`
+- **Output:** `111`
 
 ---
 
-## 📝 Problem 30
+## 📝 Problem 32
 
 ### Problem Statement
-Write a program to reverse a given number.
+Write a program to check if a number is a palindrome.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `1234`
-- **Output:** `4321`
+- **Input:** `121`
+- **Output:** `Palindrome`
 
 #### Case 2
-- **Input:** `100`
-- **Output:** `1`
+- **Input:** `123`
+- **Output:** `Not palindrome`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Reverse_number.c`](./Reverse_number.c)
-- [`factorial.c`](./factorial.c)
+- [`Palindrome.c`](./Palindrome.c)
+- [`binary.c`](./binary.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 14](../day_14/README.md)
-- [➡️ Next: Day 16](../day_16/README.md)
+- [⬅️ Previous: Day 15](../day_15/README.md)
+- [➡️ Next: Day 17](../day_17/README.md)
 
