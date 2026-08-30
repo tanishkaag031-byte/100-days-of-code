@@ -1,53 +1,53 @@
-# Day 16: Loops without Arrays/Strings 🔁
+# Day 17: Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 16 / 100
+- **Day:** 17 / 100
 - **Topic:** Loops without Arrays/Strings 🔁
-- **Problems Covered:** Problem 31, Problem 32
+- **Problems Covered:** Problem 33, Problem 34
 
 ---
 
-## 📝 Problem 31
+## 📝 Problem 33
 
 ### Problem Statement
-Write a program to take a number as input and print its equivalent binary representation.
+Write a program to check if a number is an Armstrong number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `10`
-- **Output:** `1010`
-
-#### Case 2
-- **Input:** `7`
-- **Output:** `111`
-
----
-
-## 📝 Problem 32
-
-### Problem Statement
-Write a program to check if a number is a palindrome.
-
-### Test Cases
-
-#### Case 1
-- **Input:** `121`
-- **Output:** `Palindrome`
+- **Input:** `153`
+- **Output:** `Armstrong`
 
 #### Case 2
 - **Input:** `123`
-- **Output:** `Not palindrome`
+- **Output:** `Not Armstrong`
+
+---
+
+## 📝 Problem 34
+
+### Problem Statement
+Write a program to check if a number is prime.
+
+### Test Cases
+
+#### Case 1
+- **Input:** `7`
+- **Output:** `Prime`
+
+#### Case 2
+- **Input:** `10`
+- **Output:** `Not prime`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Palindrome.c`](./Palindrome.c)
-- [`binary.c`](./binary.c)
+- [`Armstrong_number.c`](./Armstrong_number.c)
+- [`Prime.c`](./Prime.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 15](../day_15/README.md)
-- [➡️ Next: Day 17](../day_17/README.md)
+- [⬅️ Previous: Day 16](../day_16/README.md)
+- [➡️ Next: Day 18](../day_18/README.md)
 
