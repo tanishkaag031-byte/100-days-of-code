@@ -1,53 +1,53 @@
-# Day 17: Loops without Arrays/Strings 🔁
+# Day 18: Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 17 / 100
+- **Day:** 18 / 100
 - **Topic:** Loops without Arrays/Strings 🔁
-- **Problems Covered:** Problem 33, Problem 34
+- **Problems Covered:** Problem 35, Problem 36
 
 ---
 
-## 📝 Problem 33
+## 📝 Problem 35
 
 ### Problem Statement
-Write a program to check if a number is an Armstrong number.
+Write a program to print all factors of a given number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `153`
-- **Output:** `Armstrong`
-
-#### Case 2
-- **Input:** `123`
-- **Output:** `Not Armstrong`
-
----
-
-## 📝 Problem 34
-
-### Problem Statement
-Write a program to check if a number is prime.
-
-### Test Cases
-
-#### Case 1
-- **Input:** `7`
-- **Output:** `Prime`
+- **Input:** `6`
+- **Output:** `1 2 3 6`
 
 #### Case 2
 - **Input:** `10`
-- **Output:** `Not prime`
+- **Output:** `1 2 5 10`
+
+---
+
+## 📝 Problem 36
+
+### Problem Statement
+Write a program to find the HCF (GCD) of two numbers.
+
+### Test Cases
+
+#### Case 1
+- **Input:** `12 18`
+- **Output:** `6`
+
+#### Case 2
+- **Input:** `7 9`
+- **Output:** `1`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Armstrong_number.c`](./Armstrong_number.c)
-- [`Prime.c`](./Prime.c)
+- [`HCF.c`](./HCF.c)
+- [`factors.c`](./factors.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 16](../day_16/README.md)
-- [➡️ Next: Day 18](../day_18/README.md)
+- [⬅️ Previous: Day 17](../day_17/README.md)
+- [➡️ Next: Day 19](../day_19/README.md)
 
