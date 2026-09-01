@@ -1,53 +1,53 @@
-# Day 18: Loops without Arrays/Strings 🔁
+# Day 19: Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 18 / 100
+- **Day:** 19 / 100
 - **Topic:** Loops without Arrays/Strings 🔁
-- **Problems Covered:** Problem 35, Problem 36
+- **Problems Covered:** Problem 37, Problem 38
 
 ---
 
-## 📝 Problem 35
+## 📝 Problem 37
 
 ### Problem Statement
-Write a program to print all factors of a given number.
+Write a program to find the LCM of two numbers.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `6`
-- **Output:** `1 2 3 6`
+- **Input:** `4 5`
+- **Output:** `20`
 
 #### Case 2
-- **Input:** `10`
-- **Output:** `1 2 5 10`
+- **Input:** `7 3`
+- **Output:** `21`
 
 ---
 
-## 📝 Problem 36
+## 📝 Problem 38
 
 ### Problem Statement
-Write a program to find the HCF (GCD) of two numbers.
+Write a program to find the sum of digits of a number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `12 18`
+- **Input:** `123`
 - **Output:** `6`
 
 #### Case 2
-- **Input:** `7 9`
-- **Output:** `1`
+- **Input:** `999`
+- **Output:** `27`
 
 ---
 
 ## 💻 Solutions & Code
-- [`HCF.c`](./HCF.c)
-- [`factors.c`](./factors.c)
+- [`Digits_sum.c`](./Digits_sum.c)
+- [`LCM.c`](./LCM.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 17](../day_17/README.md)
-- [➡️ Next: Day 19](../day_19/README.md)
+- [⬅️ Previous: Day 18](../day_18/README.md)
+- [➡️ Next: Day 20](../day_20/README.md)
 
