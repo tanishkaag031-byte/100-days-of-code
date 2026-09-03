@@ -1,53 +1,53 @@
-# Day 20: Loops without Arrays/Strings 🔁
+# Day 21: Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 20 / 100
+- **Day:** 21 / 100
 - **Topic:** Loops without Arrays/Strings 🔁
-- **Problems Covered:** Problem 39, Problem 40
+- **Problems Covered:** Problem 41, Problem 42
 
 ---
 
-## 📝 Problem 39
+## 📝 Problem 41
 
 ### Problem Statement
-Write a program to find the product of odd digits of a number.
+Write a program to swap the first and last digit of a number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `12345`
-- **Output:** `15 (1*3*5)`
+- **Input:** `1234`
+- **Output:** `4231`
 
 #### Case 2
-- **Input:** `2468`
-- **Output:** `1 (no odd digits, assume 1)`
+- **Input:** `1001`
+- **Output:** `1001`
 
 ---
 
-## 📝 Problem 40
+## 📝 Problem 42
 
 ### Problem Statement
-Write a program to find the 1’s complement of a binary number and print it.
+Write a program to check if a number is a perfect number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `1010`
-- **Output:** `0101`
+- **Input:** `6`
+- **Output:** `Perfect number`
 
 #### Case 2
-- **Input:** `1111`
-- **Output:** `0000`
+- **Input:** `10`
+- **Output:** `Not perfect number`
 
 ---
 
 ## 💻 Solutions & Code
-- [`1's_complement_binary.c`](./1's_complement_binary.c)
-- [`odd_digit_product.c`](./odd_digit_product.c)
+- [`Perfect_Number.c`](./Perfect_Number.c)
+- [`first_last_swap.c`](./first_last_swap.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 19](../day_19/README.md)
-- [➡️ Next: Day 21](../day_21/README.md)
+- [⬅️ Previous: Day 20](../day_20/README.md)
+- [➡️ Next: Day 22](../day_22/README.md)
 
