@@ -1,53 +1,53 @@
-# Day 21: Loops without Arrays/Strings 🔁
+# Day 22: Loops without Arrays/Strings 🔁
 
 ## 📌 Overview
-- **Day:** 21 / 100
+- **Day:** 22 / 100
 - **Topic:** Loops without Arrays/Strings 🔁
-- **Problems Covered:** Problem 41, Problem 42
+- **Problems Covered:** Problem 43, Problem 44
 
 ---
 
-## 📝 Problem 41
+## 📝 Problem 43
 
 ### Problem Statement
-Write a program to swap the first and last digit of a number.
+Write a program to check if a number is a strong number.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `1234`
-- **Output:** `4231`
+- **Input:** `145`
+- **Output:** `Strong number`
 
 #### Case 2
-- **Input:** `1001`
-- **Output:** `1001`
+- **Input:** `123`
+- **Output:** `Not strong number`
 
 ---
 
-## 📝 Problem 42
+## 📝 Problem 44
 
 ### Problem Statement
-Write a program to check if a number is a perfect number.
+Write a program to find the sum of the series: 1 + 3/4 + 5/6 + 7/8 + … up to n terms.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `6`
-- **Output:** `Perfect number`
+- **Input:** `3`
+- **Output:** `Approximate sum: 3.3`
 
 #### Case 2
-- **Input:** `10`
-- **Output:** `Not perfect number`
+- **Input:** `5`
+- **Output:** `Approximate sum: 4.4`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Perfect_Number.c`](./Perfect_Number.c)
-- [`first_last_swap.c`](./first_last_swap.c)
+- [`Strong_number.c`](./Strong_number.c)
+- [`Sum_of Series1.c`](./Sum_of Series1.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 20](../day_20/README.md)
-- [➡️ Next: Day 22](../day_22/README.md)
+- [⬅️ Previous: Day 21](../day_21/README.md)
+- [➡️ Next: Day 23](../day_23/README.md)
 
