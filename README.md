@@ -1,50 +1,22 @@
-# Day 24: Nested Loops without Arrays/Strings 🔄
+# Day 25: Nested Loops without Arrays/Strings 🔄
 
 ## 📌 Overview
-- **Day:** 24 / 100
+- **Day:** 25 / 100
 - **Topic:** Nested Loops without Arrays/Strings 🔄
-- **Problems Covered:** Problem 47, Problem 48
+- **Problems Covered:** Problem 49, Problem 50
 
 ---
 
-## 📝 Problem 47
+## 📝 Problem 49
 
 ### Problem Statement
 Write a program to print the following pattern:
 
 ```text
-*
-**
-***
-****
-*****
-```
-
-### Test Cases
-
-#### Case 1
-- **Input:** *(None)*
-- **Output:**
-  ```text
-*
-**
-***
-****
-*****
-  ```
-
----
-
-## 📝 Problem 48
-
-### Problem Statement
-Write a program to print the following pattern:
-
-```text
-1
-12
-123
-1234
+5
+45
+345
+2345
 12345
 ```
 
@@ -54,22 +26,54 @@ Write a program to print the following pattern:
 - **Input:** *(None)*
 - **Output:**
   ```text
-1
-12
-123
-1234
+5
+45
+345
+2345
 12345
   ```
+
+---
+
+## 📝 Problem 50
+
+### Problem Statement
+Write a program to print the following pattern:
+
+```text
+*****
+ ****
+  ***
+   **
+    *
+```
+
+### Test Cases
+
+#### Case 1
+- **Input:** *(None)*
+- **Output:**
+  ```text
+*****
+ ****
+  ***
+   **
+    *
+  ```
+
+#### Case 2
+- **Input:** *(None)*
+- **Output:** `Note: Spaces indicate indentation.`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Pattern2.c`](./Pattern2.c)
-- [`Pattern3.c`](./Pattern3.c)
+- [`pattern4.c`](./pattern4.c)
+- [`pattern5.c`](./pattern5.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 23](../day_23/README.md)
-- [➡️ Next: Day 25](../day_25/README.md)
+- [⬅️ Previous: Day 24](../day_24/README.md)
+- [➡️ Next: Day 26](../day_26/README.md)
 
