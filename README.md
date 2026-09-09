@@ -1,23 +1,27 @@
-# Day 26: Nested Loops without Arrays/Strings 🔄
+# Day 27: Nested Loops without Arrays/Strings 🔄
 
 ## 📌 Overview
-- **Day:** 26 / 100
+- **Day:** 27 / 100
 - **Topic:** Nested Loops without Arrays/Strings 🔄
-- **Problems Covered:** Problem 51, Problem 52
+- **Problems Covered:** Problem 53, Problem 54
 
 ---
 
-## 📝 Problem 51
+## 📝 Problem 53
 
 ### Problem Statement
 Write a program to print the following pattern:
 
 ```text
-    5
-   45
-  345
- 2345
-12345
+*
+***
+*****
+*******
+*********
+*******
+*****
+***
+*
 ```
 
 ### Test Cases
@@ -26,55 +30,49 @@ Write a program to print the following pattern:
 - **Input:** *(None)*
 - **Output:**
   ```text
-    5
-   45
-  345
- 2345
-12345
+*
+***
+*****
+*******
+*********
+*******
+*****
+***
+*
   ```
 
 ---
 
-## 📝 Problem 52
+## 📝 Problem 54
 
 ### Problem Statement
 Write a program to print the following pattern:
 
 ```text
-*
-
-*
-*
-*
-
-*
-*
-*
-*
-*
-
-*
-*
-*
-
-*
+   *
+  ***
+ *****
+*******
+ *****
+  ***
+   *
 ```
 
 ### Test Cases
 
 #### Case 1
 - **Input:** *(None)*
-- **Output:** `Pattern with stars spaced irregularly as shown.`
+- **Output:** `Pattern with layers of stars as shown.`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Pattern7.c`](./Pattern7.c)
-- [`pattern6.c`](./pattern6.c)
+- [`Pattern8.c`](./Pattern8.c)
+- [`Pattern9.c`](./Pattern9.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 25](../day_25/README.md)
-- [➡️ Next: Day 27](../day_27/README.md)
+- [⬅️ Previous: Day 26](../day_26/README.md)
+- [➡️ Next: Day 28](../day_28/README.md)
 
