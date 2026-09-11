@@ -1,61 +1,69 @@
-# Day 28: Nested Loops without Arrays/Strings 🔄 / Arrays (1D) 🔢
+# Day 29: Arrays (1D) 🔢
 
 ## 📌 Overview
-- **Day:** 28 / 100
-- **Topic:** Nested Loops without Arrays/Strings 🔄 / Arrays (1D) 🔢
-- **Problems Covered:** Problem 55, Problem 56
+- **Day:** 29 / 100
+- **Topic:** Arrays (1D) 🔢
+- **Problems Covered:** Problem 57, Problem 58
 
 ---
 
-## 📝 Problem 55
+## 📝 Problem 57
 
 ### Problem Statement
-Write a program to print all the prime numbers from 1 to n.
+Find the sum of array elements.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `10`
-- **Output:** `2 3 5 7`
+- **Input:**
+  ```text
+4
+2 4 6 8
+  ```
+- **Output:** `20`
 
 #### Case 2
-- **Input:** `20`
-- **Output:** `2 3 5 7 11 13 17 19`
-
----
-
-## 📝 Problem 56
-
-### Problem Statement
-Read and print elements of a one-dimensional array.
-
-### Test Cases
-
-#### Case 1
 - **Input:**
   ```text
 3
-10 20 30
+1 1 1
   ```
-- **Output:** `10 20 30`
+- **Output:** `3`
+
+---
+
+## 📝 Problem 58
+
+### Problem Statement
+Find the maximum and minimum element in an array.
+
+### Test Cases
+
+#### Case 1
+- **Input:**
+  ```text
+5
+2 9 1 4 7
+  ```
+- **Output:** `Max=9, Min=1`
 
 #### Case 2
 - **Input:**
   ```text
-5
-1 2 3 4 5
+3
+10 10 10
   ```
-- **Output:** `1 2 3 4 5`
+- **Output:** `Max=10, Min=10`
 
 ---
 
 ## 💻 Solutions & Code
-- [`Prime1toN.c`](./Prime1toN.c)
-- [`arrayread.c`](./arrayread.c)
+- [`arrayminmax.c`](./arrayminmax.c)
+- [`arraysum.c`](./arraysum.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 27](../day_27/README.md)
-- [➡️ Next: Day 29](../day_29/README.md)
+- [⬅️ Previous: Day 28](../day_28/README.md)
+- [➡️ Next: Day 30](../day_30/README.md)
 
