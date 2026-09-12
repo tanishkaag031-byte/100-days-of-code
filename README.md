@@ -1,41 +1,41 @@
-# Day 29: Arrays (1D) 🔢
+# Day 30: Arrays (1D) 🔢
 
 ## 📌 Overview
-- **Day:** 29 / 100
+- **Day:** 30 / 100
 - **Topic:** Arrays (1D) 🔢
-- **Problems Covered:** Problem 57, Problem 58
+- **Problems Covered:** Problem 59, Problem 60
 
 ---
 
-## 📝 Problem 57
+## 📝 Problem 59
 
 ### Problem Statement
-Find the sum of array elements.
+Count even and odd numbers in an array.
 
 ### Test Cases
 
 #### Case 1
 - **Input:**
   ```text
-4
-2 4 6 8
+6
+1 2 3 4 5 6
   ```
-- **Output:** `20`
+- **Output:** `Even=3, Odd=3`
 
 #### Case 2
 - **Input:**
   ```text
-3
-1 1 1
+4
+2 4 6 8
   ```
-- **Output:** `3`
+- **Output:** `Even=4, Odd=0`
 
 ---
 
-## 📝 Problem 58
+## 📝 Problem 60
 
 ### Problem Statement
-Find the maximum and minimum element in an array.
+Count positive, negative, and zero elements in an array.
 
 ### Test Cases
 
@@ -43,27 +43,19 @@ Find the maximum and minimum element in an array.
 - **Input:**
   ```text
 5
-2 9 1 4 7
+-1 0 1 2 -2
   ```
-- **Output:** `Max=9, Min=1`
-
-#### Case 2
-- **Input:**
-  ```text
-3
-10 10 10
-  ```
-- **Output:** `Max=10, Min=10`
+- **Output:** `Positive=2, Negative=2, Zero=1`
 
 ---
 
 ## 💻 Solutions & Code
-- [`arrayminmax.c`](./arrayminmax.c)
-- [`arraysum.c`](./arraysum.c)
+- [`arrayoddeven.c`](./arrayoddeven.c)
+- [`checkarrayposnegzero.c`](./checkarrayposnegzero.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 28](../day_28/README.md)
-- [➡️ Next: Day 30](../day_30/README.md)
+- [⬅️ Previous: Day 29](../day_29/README.md)
+- [➡️ Next: Day 31](../day_31/README.md)
 
