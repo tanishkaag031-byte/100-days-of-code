@@ -1,41 +1,16 @@
-# Day 30: Arrays (1D) 🔢
+# Day 31: Arrays (1D) 🔢
 
 ## 📌 Overview
-- **Day:** 30 / 100
+- **Day:** 31 / 100
 - **Topic:** Arrays (1D) 🔢
-- **Problems Covered:** Problem 59, Problem 60
+- **Problems Covered:** Problem 61, Problem 62
 
 ---
 
-## 📝 Problem 59
+## 📝 Problem 61
 
 ### Problem Statement
-Count even and odd numbers in an array.
-
-### Test Cases
-
-#### Case 1
-- **Input:**
-  ```text
-6
-1 2 3 4 5 6
-  ```
-- **Output:** `Even=3, Odd=3`
-
-#### Case 2
-- **Input:**
-  ```text
-4
-2 4 6 8
-  ```
-- **Output:** `Even=4, Odd=0`
-
----
-
-## 📝 Problem 60
-
-### Problem Statement
-Count positive, negative, and zero elements in an array.
+Search for an element in an array using linear search.
 
 ### Test Cases
 
@@ -43,19 +18,46 @@ Count positive, negative, and zero elements in an array.
 - **Input:**
   ```text
 5
--1 0 1 2 -2
+1 2 3 4 5
+3
   ```
-- **Output:** `Positive=2, Negative=2, Zero=1`
+- **Output:** `Found at index 2`
+
+#### Case 2
+- **Input:**
+  ```text
+4
+10 20 30 40
+25
+  ```
+- **Output:** `-1`
+
+---
+
+## 📝 Problem 62
+
+### Problem Statement
+Reverse an array without taking extra space.
+
+### Test Cases
+
+#### Case 1
+- **Input:**
+  ```text
+4
+1 2 3 4
+  ```
+- **Output:** `4 3 2 1`
 
 ---
 
 ## 💻 Solutions & Code
-- [`arrayoddeven.c`](./arrayoddeven.c)
-- [`checkarrayposnegzero.c`](./checkarrayposnegzero.c)
+- [`arrayreverse.c`](./arrayreverse.c)
+- [`arraysearch.c`](./arraysearch.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 29](../day_29/README.md)
-- [➡️ Next: Day 31](../day_31/README.md)
+- [⬅️ Previous: Day 30](../day_30/README.md)
+- [➡️ Next: Day 32](../day_32/README.md)
 
