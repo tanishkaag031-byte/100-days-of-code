@@ -1,63 +1,55 @@
-# Day 31: Arrays (1D) 🔢
+# Day 32: Arrays (1D) 🔢
 
 ## 📌 Overview
-- **Day:** 31 / 100
+- **Day:** 32 / 100
 - **Topic:** Arrays (1D) 🔢
-- **Problems Covered:** Problem 61, Problem 62
+- **Problems Covered:** Problem 63, Problem 64
 
 ---
 
-## 📝 Problem 61
+## 📝 Problem 63
 
 ### Problem Statement
-Search for an element in an array using linear search.
+Merge two arrays.
 
 ### Test Cases
 
 #### Case 1
 - **Input:**
   ```text
-5
-1 2 3 4 5
 3
+1 2 3
+2
+4 5
   ```
-- **Output:** `Found at index 2`
+- **Output:** `1 2 3 4 5`
+
+---
+
+## 📝 Problem 64
+
+### Problem Statement
+Find the digit that occurs the most times in an integer number.
+
+### Test Cases
+
+#### Case 1
+- **Input:** `112233`
+- **Output:** `1`
 
 #### Case 2
-- **Input:**
-  ```text
-4
-10 20 30 40
-25
-  ```
-- **Output:** `-1`
-
----
-
-## 📝 Problem 62
-
-### Problem Statement
-Reverse an array without taking extra space.
-
-### Test Cases
-
-#### Case 1
-- **Input:**
-  ```text
-4
-1 2 3 4
-  ```
-- **Output:** `4 3 2 1`
+- **Input:** `887799`
+- **Output:** `7`
 
 ---
 
 ## 💻 Solutions & Code
-- [`arrayreverse.c`](./arrayreverse.c)
-- [`arraysearch.c`](./arraysearch.c)
+- [`arraymerge.c`](./arraymerge.c)
+- [`mostdigit.c`](./mostdigit.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 30](../day_30/README.md)
-- [➡️ Next: Day 32](../day_32/README.md)
+- [⬅️ Previous: Day 31](../day_31/README.md)
+- [➡️ Next: Day 33](../day_33/README.md)
 
