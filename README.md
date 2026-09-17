@@ -1,34 +1,33 @@
-# Day 34: Arrays (1D) 🔢
+# Day 35: Arrays (1D) 🔢
 
 ## 📌 Overview
-- **Day:** 34 / 100
+- **Day:** 35 / 100
 - **Topic:** Arrays (1D) 🔢
-- **Problems Covered:** Problem 67, Problem 68
+- **Problems Covered:** Problem 69, Problem 70
 
 ---
 
-## 📝 Problem 67
+## 📝 Problem 69
 
 ### Problem Statement
-Insert an element in an array at a given position.
+Find the second largest element in an array.
 
 ### Test Cases
 
 #### Case 1
 - **Input:**
   ```text
-4
-10 20 30 40
-2 15
+5
+10 20 30 40 50
   ```
-- **Output:** `10 20 15 30 40`
+- **Output:** `40`
 
 ---
 
-## 📝 Problem 68
+## 📝 Problem 70
 
 ### Problem Statement
-Delete an element from an array.
+Rotate an array to the right by k positions.
 
 ### Test Cases
 
@@ -39,17 +38,17 @@ Delete an element from an array.
 1 2 3 4 5
 2
   ```
-- **Output:** `1 2 4 5`
+- **Output:** `4 5 1 2 3`
 
 ---
 
 ## 💻 Solutions & Code
-- [`arrinsanypos.c`](./arrinsanypos.c)
-- [`delelearr.c`](./delelearr.c)
+- [`rotatearr.c`](./rotatearr.c)
+- [`seclargearrele.c`](./seclargearrele.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 33](../day_33/README.md)
-- [➡️ Next: Day 35](../day_35/README.md)
+- [⬅️ Previous: Day 34](../day_34/README.md)
+- [➡️ Next: Day 36](../day_36/README.md)
 
