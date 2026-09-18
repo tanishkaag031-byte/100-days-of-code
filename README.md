@@ -1,54 +1,59 @@
-# Day 35: Arrays (1D) 🔢
+# Day 36: 2D Arrays 🔲
 
 ## 📌 Overview
-- **Day:** 35 / 100
-- **Topic:** Arrays (1D) 🔢
-- **Problems Covered:** Problem 69, Problem 70
+- **Day:** 36 / 100
+- **Topic:** 2D Arrays 🔲
+- **Problems Covered:** Problem 71, Problem 72
 
 ---
 
-## 📝 Problem 69
+## 📝 Problem 71
 
 ### Problem Statement
-Find the second largest element in an array.
+Read and print a matrix.
 
 ### Test Cases
 
 #### Case 1
 - **Input:**
   ```text
-5
-10 20 30 40 50
+2 2
+1 2
+3 4
   ```
-- **Output:** `40`
+- **Output:**
+  ```text
+1 2
+3 4
+  ```
 
 ---
 
-## 📝 Problem 70
+## 📝 Problem 72
 
 ### Problem Statement
-Rotate an array to the right by k positions.
+Find the sum of all elements in a matrix.
 
 ### Test Cases
 
 #### Case 1
 - **Input:**
   ```text
-5
-1 2 3 4 5
-2
+2 3
+1 2 3
+4 5 6
   ```
-- **Output:** `4 5 1 2 3`
+- **Output:** `21`
 
 ---
 
 ## 💻 Solutions & Code
-- [`rotatearr.c`](./rotatearr.c)
-- [`seclargearrele.c`](./seclargearrele.c)
+- [`matrix.c`](./matrix.c)
+- [`matrixsum.c`](./matrixsum.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 34](../day_34/README.md)
-- [➡️ Next: Day 36](../day_36/README.md)
+- [⬅️ Previous: Day 35](../day_35/README.md)
+- [➡️ Next: Day 37](../day_37/README.md)
 
