@@ -1,71 +1,67 @@
-# Day 38: 2D Arrays 🔲
+# Day 39: 2D Arrays 🔲
 
 ## 📌 Overview
-- **Day:** 38 / 100
+- **Day:** 39 / 100
 - **Topic:** 2D Arrays 🔲
-- **Problems Covered:** Problem 75, Problem 76
+- **Problems Covered:** Problem 77, Problem 78
 
 ---
 
-## 📝 Problem 75
+## 📝 Problem 77
 
 ### Problem Statement
-Add two matrices.
+Check if the elements on the diagonal of a matrix are distinct.
 
 ### Test Cases
 
 #### Case 1
 - **Input:**
   ```text
-2 2
-1 2
-3 4
-2 2
-5 6
-7 8
+3 3
+1 2 3
+4 5 6
+7 8 1
   ```
-- **Output:**
-  ```text
-6 8
-10 12
-  ```
-
----
-
-## 📝 Problem 76
-
-### Problem Statement
-Check if a matrix is symmetric.
-
-### Test Cases
-
-#### Case 1
-- **Input:**
-  ```text
-2 2
-1 2
-2 1
-  ```
-- **Output:** `True`
+- **Output:** `False`
 
 #### Case 2
 - **Input:**
   ```text
-2 2
-1 0
-2 1
+3 3
+1 2 3
+4 5 6
+7 8 9
   ```
-- **Output:** `False`
+- **Output:** `True`
+
+---
+
+## 📝 Problem 78
+
+### Problem Statement
+Find the sum of main diagonal elements for a square matrix.
+
+### Test Cases
+
+#### Case 1
+- **Input:**
+  ```text
+3 3
+1 2 3
+4 5 6
+7 8 9
+  ```
+- **Output:** `15`
 
 ---
 
 ## 💻 Solutions & Code
-- [`matrixadd.c`](./matrixadd.c)
-- [`matrixsymetric.c`](./matrixsymetric.c)
+- [`diaelematrixdist.c`](./diaelematrixdist.c)
+- [`sumdiasqumatrix.c`](./sumdiasqumatrix.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 37](../day_37/README.md)
-- [➡️ Next: Day 39](../day_39/README.md)
+- [⬅️ Previous: Day 38](../day_38/README.md)
+- [➡️ Next: Day 40](../day_40/README.md)
 
