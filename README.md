@@ -1,64 +1,53 @@
-# Day 40: 2D Arrays 🔲
+# Day 41: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 40 / 100
-- **Topic:** 2D Arrays 🔲
-- **Problems Covered:** Problem 79, Problem 80
+- **Day:** 41 / 100
+- **Topic:** Strings 🔤
+- **Problems Covered:** Problem 81, Problem 82
 
 ---
 
-## 📝 Problem 79
+## 📝 Problem 81
 
 ### Problem Statement
-Perform diagonal traversal of a matrix.
+Count characters in a string without using built-in length functions.
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
-  ```text
-3 3
-1 2 3
-4 5 6
-7 8 9
-  ```
-- **Output:** `1 2 4 7 5 3 6 8 9`
+- **Input:** `Hello`
+- **Output:** `5`
+
+#### Case 2
+- **Input:** ` `
+- **Output:** `1`
 
 ---
 
-## 📝 Problem 80
+## 📝 Problem 82
 
 ### Problem Statement
-Multiply two matrices.
+Print each character of a string on a new line.
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
-  ```text
-2 3
-1 2 3
-4 5 6
-3 2
-7 8
-9 10
-11 12
-  ```
+- **Input:** `Hi`
 - **Output:**
   ```text
-58 64
-139 154
+H
+i
   ```
 
 ---
 
 ## 💻 Solutions & Code
-- [`diatransmatrix.c`](./diatransmatrix.c)
-- [`multiplymatrix.c`](./multiplymatrix.c)
+- [`countcharstring.c`](./countcharstring.c)
+- [`pricharnewline.c`](./pricharnewline.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 39](../day_39/README.md)
-- [➡️ Next: Day 41](../day_41/README.md)
+- [⬅️ Previous: Day 40](../day_40/README.md)
+- [➡️ Next: Day 42](../day_42/README.md)
 
