@@ -1,53 +1,45 @@
-# Day 41: Strings 🔤
+# Day 42: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 41 / 100
+- **Day:** 42 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 81, Problem 82
+- **Problems Covered:** Problem 83, Problem 84
 
 ---
 
-## 📝 Problem 81
+## 📝 Problem 83
 
 ### Problem Statement
-Count characters in a string without using built-in length functions.
+Count vowels and consonants in a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `Hello`
-- **Output:** `5`
-
-#### Case 2
-- **Input:** ` `
-- **Output:** `1`
+- **Input:** `hello`
+- **Output:** `Vowels=2, Consonants=3`
 
 ---
 
-## 📝 Problem 82
+## 📝 Problem 84
 
 ### Problem Statement
-Print each character of a string on a new line.
+Convert a lowercase string to uppercase without using built-in functions.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `Hi`
-- **Output:**
-  ```text
-H
-i
-  ```
+- **Input:** `hello`
+- **Output:** `HELLO`
 
 ---
 
 ## 💻 Solutions & Code
-- [`countcharstring.c`](./countcharstring.c)
-- [`pricharnewline.c`](./pricharnewline.c)
+- [`countvowelconsonent.c`](./countvowelconsonent.c)
+- [`lowertoupper.c`](./lowertoupper.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 40](../day_40/README.md)
-- [➡️ Next: Day 42](../day_42/README.md)
+- [⬅️ Previous: Day 41](../day_41/README.md)
+- [➡️ Next: Day 43](../day_43/README.md)
 
