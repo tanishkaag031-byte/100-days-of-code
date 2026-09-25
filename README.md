@@ -1,45 +1,49 @@
-# Day 42: Strings 🔤
+# Day 43: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 42 / 100
+- **Day:** 43 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 83, Problem 84
+- **Problems Covered:** Problem 85, Problem 86
 
 ---
 
-## 📝 Problem 83
+## 📝 Problem 85
 
 ### Problem Statement
-Count vowels and consonants in a string.
+Reverse a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `hello`
-- **Output:** `Vowels=2, Consonants=3`
+- **Input:** `abcd`
+- **Output:** `dcba`
 
 ---
 
-## 📝 Problem 84
+## 📝 Problem 86
 
 ### Problem Statement
-Convert a lowercase string to uppercase without using built-in functions.
+Check if a string is a palindrome.
 
 ### Test Cases
 
 #### Case 1
+- **Input:** `madam`
+- **Output:** `Palindrome`
+
+#### Case 2
 - **Input:** `hello`
-- **Output:** `HELLO`
+- **Output:** `Not palindrome`
 
 ---
 
 ## 💻 Solutions & Code
-- [`countvowelconsonent.c`](./countvowelconsonent.c)
-- [`lowertoupper.c`](./lowertoupper.c)
+- [`stringpalindrom.c`](./stringpalindrom.c)
+- [`stringrev.c`](./stringrev.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 41](../day_41/README.md)
-- [➡️ Next: Day 43](../day_43/README.md)
+- [⬅️ Previous: Day 42](../day_42/README.md)
+- [➡️ Next: Day 44](../day_44/README.md)
 
