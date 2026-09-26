@@ -1,49 +1,45 @@
-# Day 43: Strings 🔤
+# Day 44: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 43 / 100
+- **Day:** 44 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 85, Problem 86
+- **Problems Covered:** Problem 87, Problem 88
 
 ---
 
-## 📝 Problem 85
+## 📝 Problem 87
 
 ### Problem Statement
-Reverse a string.
+Count spaces, digits, and special characters in a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `abcd`
-- **Output:** `dcba`
+- **Input:** `a b1&2`
+- **Output:** `Spaces=1, Digits=2, Special=1`
 
 ---
 
-## 📝 Problem 86
+## 📝 Problem 88
 
 ### Problem Statement
-Check if a string is a palindrome.
+Replace spaces with hyphens in a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `madam`
-- **Output:** `Palindrome`
-
-#### Case 2
-- **Input:** `hello`
-- **Output:** `Not palindrome`
+- **Input:** `hello world`
+- **Output:** `hello-world`
 
 ---
 
 ## 💻 Solutions & Code
-- [`stringpalindrom.c`](./stringpalindrom.c)
-- [`stringrev.c`](./stringrev.c)
+- [`countstring.c`](./countstring.c)
+- [`spacehyphen.c`](./spacehyphen.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 42](../day_42/README.md)
-- [➡️ Next: Day 44](../day_44/README.md)
+- [⬅️ Previous: Day 43](../day_43/README.md)
+- [➡️ Next: Day 45](../day_45/README.md)
 
