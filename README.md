@@ -1,45 +1,49 @@
-# Day 44: Strings 🔤
+# Day 45: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 44 / 100
+- **Day:** 45 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 87, Problem 88
+- **Problems Covered:** Problem 89, Problem 90
 
 ---
 
-## 📝 Problem 87
+## 📝 Problem 89
 
 ### Problem Statement
-Count spaces, digits, and special characters in a string.
+Count frequency of a given character in a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `a b1&2`
-- **Output:** `Spaces=1, Digits=2, Special=1`
+- **Input:**
+  ```text
+programming
+g
+  ```
+- **Output:** `2`
 
 ---
 
-## 📝 Problem 88
+## 📝 Problem 90
 
 ### Problem Statement
-Replace spaces with hyphens in a string.
+Toggle case of each character in a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `hello world`
-- **Output:** `hello-world`
+- **Input:** `Hello`
+- **Output:** `hELLO`
 
 ---
 
 ## 💻 Solutions & Code
-- [`countstring.c`](./countstring.c)
-- [`spacehyphen.c`](./spacehyphen.c)
+- [`casetoggle.c`](./casetoggle.c)
+- [`charfreq.c`](./charfreq.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 43](../day_43/README.md)
-- [➡️ Next: Day 45](../day_45/README.md)
+- [⬅️ Previous: Day 44](../day_44/README.md)
+- [➡️ Next: Day 46](../day_46/README.md)
 
