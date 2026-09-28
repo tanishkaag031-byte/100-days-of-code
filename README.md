@@ -1,49 +1,45 @@
-# Day 45: Strings 🔤
+# Day 46: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 45 / 100
+- **Day:** 46 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 89, Problem 90
+- **Problems Covered:** Problem 91, Problem 92
 
 ---
 
-## 📝 Problem 89
+## 📝 Problem 91
 
 ### Problem Statement
-Count frequency of a given character in a string.
+Remove all vowels from a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
-  ```text
-programming
-g
-  ```
-- **Output:** `2`
+- **Input:** `education`
+- **Output:** `dctn`
 
 ---
 
-## 📝 Problem 90
+## 📝 Problem 92
 
 ### Problem Statement
-Toggle case of each character in a string.
+Find the first repeating lowercase alphabet in a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `Hello`
-- **Output:** `hELLO`
+- **Input:** `stress`
+- **Output:** `s`
 
 ---
 
 ## 💻 Solutions & Code
-- [`casetoggle.c`](./casetoggle.c)
-- [`charfreq.c`](./charfreq.c)
+- [`firstreplowercase.c`](./firstreplowercase.c)
+- [`novowel.c`](./novowel.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 44](../day_44/README.md)
-- [➡️ Next: Day 46](../day_46/README.md)
+- [⬅️ Previous: Day 45](../day_45/README.md)
+- [➡️ Next: Day 47](../day_47/README.md)
 
