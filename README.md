@@ -1,45 +1,57 @@
-# Day 46: Strings 🔤
+# Day 47: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 46 / 100
+- **Day:** 47 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 91, Problem 92
+- **Problems Covered:** Problem 93, Problem 94
 
 ---
 
-## 📝 Problem 91
+## 📝 Problem 93
 
 ### Problem Statement
-Remove all vowels from a string.
+Check if two strings are anagrams of each other.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `education`
-- **Output:** `dctn`
+- **Input:**
+  ```text
+listen
+silent
+  ```
+- **Output:** `Anagrams`
+
+#### Case 2
+- **Input:**
+  ```text
+hello
+world
+  ```
+- **Output:** `Not anagrams`
 
 ---
 
-## 📝 Problem 92
+## 📝 Problem 94
 
 ### Problem Statement
-Find the first repeating lowercase alphabet in a string.
+Find the longest word in a sentence.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `stress`
-- **Output:** `s`
+- **Input:** `I love programming`
+- **Output:** `programming`
 
 ---
 
 ## 💻 Solutions & Code
-- [`firstreplowercase.c`](./firstreplowercase.c)
-- [`novowel.c`](./novowel.c)
+- [`anagrams.c`](./anagrams.c)
+- [`longestword.c`](./longestword.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 45](../day_45/README.md)
-- [➡️ Next: Day 47](../day_47/README.md)
+- [⬅️ Previous: Day 46](../day_46/README.md)
+- [➡️ Next: Day 48](../day_48/README.md)
 
