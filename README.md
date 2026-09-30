@@ -1,57 +1,57 @@
-# Day 47: Strings 🔤
+# Day 48: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 47 / 100
+- **Day:** 48 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 93, Problem 94
+- **Problems Covered:** Problem 95, Problem 96
 
 ---
 
-## 📝 Problem 93
+## 📝 Problem 95
 
 ### Problem Statement
-Check if two strings are anagrams of each other.
+Check if one string is a rotation of another.
 
 ### Test Cases
 
 #### Case 1
 - **Input:**
   ```text
-listen
-silent
+abcde
+deabc
   ```
-- **Output:** `Anagrams`
+- **Output:** `Rotation`
 
 #### Case 2
 - **Input:**
   ```text
-hello
-world
+abc
+acb
   ```
-- **Output:** `Not anagrams`
+- **Output:** `Not rotation`
 
 ---
 
-## 📝 Problem 94
+## 📝 Problem 96
 
 ### Problem Statement
-Find the longest word in a sentence.
+Reverse each word in a sentence without changing the word order.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `I love programming`
-- **Output:** `programming`
+- **Input:** `I love coding`
+- **Output:** `I evol gnidoc`
 
 ---
 
 ## 💻 Solutions & Code
-- [`anagrams.c`](./anagrams.c)
-- [`longestword.c`](./longestword.c)
+- [`checkrotation.c`](./checkrotation.c)
+- [`reveachinsentence.c`](./reveachinsentence.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 46](../day_46/README.md)
-- [➡️ Next: Day 48](../day_48/README.md)
+- [⬅️ Previous: Day 47](../day_47/README.md)
+- [➡️ Next: Day 49](../day_49/README.md)
 
