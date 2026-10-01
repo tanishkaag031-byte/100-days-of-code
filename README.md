@@ -1,57 +1,45 @@
-# Day 48: Strings 🔤
+# Day 49: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 48 / 100
+- **Day:** 49 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 95, Problem 96
+- **Problems Covered:** Problem 97, Problem 98
 
 ---
 
-## 📝 Problem 95
+## 📝 Problem 97
 
 ### Problem Statement
-Check if one string is a rotation of another.
+Print the initials of a name.
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
-  ```text
-abcde
-deabc
-  ```
-- **Output:** `Rotation`
-
-#### Case 2
-- **Input:**
-  ```text
-abc
-acb
-  ```
-- **Output:** `Not rotation`
+- **Input:** `John Doe`
+- **Output:** `J.D.`
 
 ---
 
-## 📝 Problem 96
+## 📝 Problem 98
 
 ### Problem Statement
-Reverse each word in a sentence without changing the word order.
+Print initials of a name with the surname displayed in full.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `I love coding`
-- **Output:** `I evol gnidoc`
+- **Input:** `John David Doe`
+- **Output:** `J.D. Doe`
 
 ---
 
 ## 💻 Solutions & Code
-- [`checkrotation.c`](./checkrotation.c)
-- [`reveachinsentence.c`](./reveachinsentence.c)
+- [`nameinitials.c`](./nameinitials.c)
+- [`nameinitialsandfullend.c`](./nameinitialsandfullend.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 47](../day_47/README.md)
-- [➡️ Next: Day 49](../day_49/README.md)
+- [⬅️ Previous: Day 48](../day_48/README.md)
+- [➡️ Next: Day 50](../day_50/README.md)
 
