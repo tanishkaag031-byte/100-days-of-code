@@ -1,45 +1,45 @@
-# Day 49: Strings 🔤
+# Day 50: Strings 🔤
 
 ## 📌 Overview
-- **Day:** 49 / 100
+- **Day:** 50 / 100
 - **Topic:** Strings 🔤
-- **Problems Covered:** Problem 97, Problem 98
+- **Problems Covered:** Problem 99, Problem 100
 
 ---
 
-## 📝 Problem 97
+## 📝 Problem 99
 
 ### Problem Statement
-Print the initials of a name.
+Change the date format from dd/04/yyyy to dd-Apr-yyyy.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `John Doe`
-- **Output:** `J.D.`
+- **Input:** `15/04/2025`
+- **Output:** `15-Apr-2025`
 
 ---
 
-## 📝 Problem 98
+## 📝 Problem 100
 
 ### Problem Statement
-Print initials of a name with the surname displayed in full.
+Print all sub-strings of a string.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `John David Doe`
-- **Output:** `J.D. Doe`
+- **Input:** `abc`
+- **Output:** `a,ab,abc,b,bc,c`
 
 ---
 
 ## 💻 Solutions & Code
-- [`nameinitials.c`](./nameinitials.c)
-- [`nameinitialsandfullend.c`](./nameinitialsandfullend.c)
+- [`dateformat.c`](./dateformat.c)
+- [`substring.c`](./substring.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 48](../day_48/README.md)
-- [➡️ Next: Day 50](../day_50/README.md)
+- [⬅️ Previous: Day 49](../day_49/README.md)
+- [➡️ Next: Day 51](../day_51/README.md)
 
