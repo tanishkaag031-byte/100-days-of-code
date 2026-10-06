@@ -1,44 +1,44 @@
-# Day 53: Logic Enhancers 🔤
+# Day 54: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 53 / 100
+- **Day:** 54 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 103
+- **Problems Covered:** Problem 104
 
 ---
 
-## 📝 Problem 103
+## 📝 Problem 104
 
 ### Problem Statement
-Write a Program to take an array of integers as input, calculate the pivot index of this array. The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right. If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array. Print the leftmost pivot index. If no such index exists, print -1.
+Write a Program to take a positive integer n as input, and find the pivot integer x such that the sum of all elements between 1 and x inclusively equals the sum of all elements between x and n inclusively. Print the pivot integer x. If no such integer exists, print -1. Assume that it is guaranteed that there will be at most one pivot integer for the given input.
 
-> 💡 **Note:** Follow-up(optional): Try to solve this in O(n) TC
+> 💡 **Note:** Follow-up 1 (optional): Can you do it in O(log n) Time Complexity? Follow-up 2 (optional): Can you do it in O(1) Time Complexity?
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `nums = [1,7,3,6,5,6]`
-- **Output:** `3`
-- **Explanation:** The pivot index is 3. Left sum = 1 + 7 + 3 = 11, Right sum = 5 + 6 = 11.
+- **Input:** `n = 8`
+- **Output:** `6`
+- **Explanation:** 6 is the pivot integer since: 1 + 2 + 3 + 4 + 5 + 6 = 6 + 7 + 8 = 21.
 
 #### Case 2
-- **Input:** `nums = [1,2,3]`
-- **Output:** `-1`
-- **Explanation:** There is no index that satisfies the conditions in the problem statement.
+- **Input:** `n = 1`
+- **Output:** `1`
+- **Explanation:** 1 is the pivot integer since: 1 = 1.
 
 #### Case 3
-- **Input:** `nums = [2,1,-1]`
-- **Output:** `0`
-- **Explanation:** The pivot index is 0. Left sum = 0 (no elements to the left), Right sum = 1 + (-1) = 0.
+- **Input:** `n = 4`
+- **Output:** `-1`
+- **Explanation:** It can be proved that no such integer exists.
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic3.c`](./logic3.c)
+- [`logic4.c`](./logic4.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 52](../day_52/README.md)
-- [➡️ Next: Day 54](../day_54/README.md)
+- [⬅️ Previous: Day 53](../day_53/README.md)
+- [➡️ Next: Day 55](../day_55/README.md)
 
