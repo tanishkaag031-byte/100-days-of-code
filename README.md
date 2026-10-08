@@ -1,44 +1,53 @@
-# Day 55: Logic Enhancers 🔤
+# Day 56: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 55 / 100
+- **Day:** 56 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 105
+- **Problems Covered:** Problem 106
 
 ---
 
-## 📝 Problem 105
+## 📝 Problem 106
 
 ### Problem Statement
-Write a program to take an integer array nums of size n, and print the majority element. The majority element is the element that appears strictly more than ⌊n / 2⌋ times. Print -1 if no such element exists. Note: Majority Element is not necessarily the element that is present most number of times.
+Write a program to take an array arr[] of integers as input, the task is to find the next greater element for each element of the array in order of their appearance in the array. Next greater element of an element in the array is the nearest element on the right which is greater than the current element. If there does not exist next greater of current element, then next greater element for current element is -1.
 
-> 💡 **Note:** Follow-up (optional): Can you do it in O(n) Time Complexity?
+N.B:
+- Print the output for each element in a comma separated fashion.
+- Do not use Stack, use brute force approach (nested loop) to solve.
+
+> 💡 **Note:** Try solving this using brute force (nested loop). No need of attempting the optimized stack-based solution.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `nums = [3,2,3]`
-- **Output:** `3`
-- **Explanation:** Size = 3, Count of 3 = 2 → 2 > 3/2. Thus, 3 is the majority element.
+- **Input:** `arr = [1, 3, 2, 4]`
+- **Output:** `3, 4, 4, -1`
+- **Explanation:** The next larger element to 1 is 3, for 3 it is 4, for 2 it is 4 and for 4 there is no next greater element so it is -1.
 
 #### Case 2
-- **Input:** `nums = [2,2,1,1,1,2,2]`
-- **Output:** `2`
-- **Explanation:** Size = 7, Count of 2 = 4 → 4 > 7/2. Thus, 2 is the majority element.
+- **Input:** `arr = [6, 8, 0, 1, 3]`
+- **Output:** `8, -1, 1, 3, -1`
+- **Explanation:** Next greater element for 6 is 8, for 8 it is -1, for 0 it is 1, for 1 it is 3 and for 3 there is no greater element on right hence -1.
 
 #### Case 3
-- **Input:** `nums = [2,2,1,1,1,2,2,3]`
-- **Output:** `-1`
-- **Explanation:** Size = 8, Count of 2 = 4 → 4 is not strictly greater than 8/2. Hence, no majority element exists.
+- **Input:** `arr = [1, 2, 3, 5]`
+- **Output:** `2, 3, 5, -1`
+- **Explanation:** In a sorted array, each element’s next greater is its immediate next element except for the last element which has none, so -1.
+
+#### Case 4
+- **Input:** `arr = [5, 4, 3, 1]`
+- **Output:** `-1, -1, -1, -1`
+- **Explanation:** No element has a greater element on its right, so all next greater elements are -1.
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic5.c`](./logic5.c)
+- [`logic6.c`](./logic6.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 54](../day_54/README.md)
-- [➡️ Next: Day 56](../day_56/README.md)
+- [⬅️ Previous: Day 55](../day_55/README.md)
+- [➡️ Next: Day 57](../day_57/README.md)
 
