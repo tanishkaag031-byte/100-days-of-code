@@ -1,37 +1,42 @@
-# Day 58: Logic Enhancers 🔤
+# Day 59: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 58 / 100
+- **Day:** 59 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 108
+- **Problems Covered:** Problem 109
 
 ---
 
-## 📝 Problem 108
+## 📝 Problem 109
 
 ### Problem Statement
-Write a Program to take an integer array nums. Print an array answer such that answer[i] is equal to the product of all the elements of nums except nums[i]. The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
-
-> 💡 **Note:** Follow-up(optional): Can you write a code that runs in O(n) time and without using the division operation.
+Write a program to take an integer array arr and an integer k as inputs. Print the maximum sum of all the subarrays of size k.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `nums = [1,2,3,4]`
-- **Output:** `[24,12,8,6]`
+- **Input:** `arr[100, 200, 300, 400] = , k = 2`
+- **Output:** `700`
+- **Explanation:** arr2 + arr3 = 700, which is maximum.
 
 #### Case 2
-- **Input:** `nums = [-1,1,0,-3,3]`
-- **Output:** `[0,0,9,0,0]`
+- **Input:** `arr[1, 4, 2, 10, 23, 3, 1, 0, 20] = , k = 4`
+- **Output:** `39`
+- **Explanation:** arr1 + arr2 + arr3 + arr4 = 39, which is maximum.
+
+#### Case 3
+- **Input:** `arr[100, 200, 300, 400] = , k = 1`
+- **Output:** `400`
+- **Explanation:** arr3 = 400, which is maximum.
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic8.c`](./logic8.c)
+- [`logic9.c`](./logic9.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 57](../day_57/README.md)
-- [➡️ Next: Day 59](../day_59/README.md)
+- [⬅️ Previous: Day 58](../day_58/README.md)
+- [➡️ Next: Day 60](../day_60/README.md)
 
