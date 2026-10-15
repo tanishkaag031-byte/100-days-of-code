@@ -1,42 +1,37 @@
-# Day 62: Logic Enhancers 🔤
+# Day 63: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 62 / 100
+- **Day:** 63 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 112
+- **Problems Covered:** Problem 113
 
 ---
 
-## 📝 Problem 112
+## 📝 Problem 113
 
 ### Problem Statement
-Write a program to take an integer array arr as input. The task is to find the maximum sum of any contiguous subarray using Kadane's algorithm. Print the maximum sum as output. If all elements are negative, print the largest (least negative) element.
+Write a program to take an integer array arr and an integer k as inputs. The task is to find the kth smallest element in the array. Print the kth smallest element as output.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `arr[] = [2, 3, -8, 7, -1, 2, 3]`
-- **Output:** `11`
-- **Explanation:** The subarray [7, -1, 2, 3] has the largest sum 11.
+- **Input:** `arr[] = [10, 5, 4, 3, 48, 6, 2, 33, 53, 10], k = 4`
+- **Output:** `5`
+- **Explanation:** 4th smallest element in the given array is 5.
 
 #### Case 2
-- **Input:** `arr[] = [-2, -4]`
-- **Output:** `-2`
-- **Explanation:** The subarray [-2] has the largest sum -2.
-
-#### Case 3
-- **Input:** `arr[] = [5, 4, 1, 7, 8]`
-- **Output:** `25`
-- **Explanation:** The subarray has the largest sum 25.
+- **Input:** `arr[] = [7, 10, 4, 3, 20, 15], k = 3`
+- **Output:** `7`
+- **Explanation:** 3rd smallest element in the given array is 7.
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic12.c`](./logic12.c)
+- [`logic13.c`](./logic13.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 61](../day_61/README.md)
-- [➡️ Next: Day 63](../day_63/README.md)
+- [⬅️ Previous: Day 62](../day_62/README.md)
+- [➡️ Next: Day 64](../day_64/README.md)
 
