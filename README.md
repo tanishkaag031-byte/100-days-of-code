@@ -1,37 +1,42 @@
-# Day 63: Logic Enhancers 🔤
+# Day 64: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 63 / 100
+- **Day:** 64 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 113
+- **Problems Covered:** Problem 114
 
 ---
 
-## 📝 Problem 113
+## 📝 Problem 114
 
 ### Problem Statement
-Write a program to take an integer array arr and an integer k as inputs. The task is to find the kth smallest element in the array. Print the kth smallest element as output.
+Write a program to take a string s as input. The task is to find the length of the longest substring without repeating characters. Print the length as output.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `arr[] = [10, 5, 4, 3, 48, 6, 2, 33, 53, 10], k = 4`
-- **Output:** `5`
-- **Explanation:** 4th smallest element in the given array is 5.
+- **Input:** `s = "abcabcbb"`
+- **Output:** `3`
+- **Explanation:** The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
 
 #### Case 2
-- **Input:** `arr[] = [7, 10, 4, 3, 20, 15], k = 3`
-- **Output:** `7`
-- **Explanation:** 3rd smallest element in the given array is 7.
+- **Input:** `s = "bbbbb"`
+- **Output:** `1`
+- **Explanation:** The answer is "b", with the length of 1.
+
+#### Case 3
+- **Input:** `s = "pwwkew"`
+- **Output:** `3`
+- **Explanation:** The answer is "wke", with the length of 3. Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic13.c`](./logic13.c)
+- [`logic14.c`](./logic14.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 62](../day_62/README.md)
-- [➡️ Next: Day 64](../day_64/README.md)
+- [⬅️ Previous: Day 63](../day_63/README.md)
+- [➡️ Next: Day 65](../day_65/README.md)
 
