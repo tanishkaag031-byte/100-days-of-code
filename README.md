@@ -1,42 +1,37 @@
-# Day 64: Logic Enhancers 🔤
+# Day 65: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 64 / 100
+- **Day:** 65 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 114
+- **Problems Covered:** Problem 115
 
 ---
 
-## 📝 Problem 114
+## 📝 Problem 115
 
 ### Problem Statement
-Write a program to take a string s as input. The task is to find the length of the longest substring without repeating characters. Print the length as output.
+Write a program to take two strings s and t as inputs (assume all characters are lowercase). The task is to determine if s and t are valid anagrams, meaning they contain the same characters with the same frequencies. Print "Anagram" if they are, otherwise "Not Anagram".
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `s = "abcabcbb"`
-- **Output:** `3`
-- **Explanation:** The answer is "abc", with the length of 3. Note that "bca" and "cab" are also correct answers.
+- **Input:** `s = "anagram", t = "nagaram"`
+- **Output:** `Anagram`
+- **Explanation:** The strings contain the same characters with the same frequencies.
 
 #### Case 2
-- **Input:** `s = "bbbbb"`
-- **Output:** `1`
-- **Explanation:** The answer is "b", with the length of 1.
-
-#### Case 3
-- **Input:** `s = "pwwkew"`
-- **Output:** `3`
-- **Explanation:** The answer is "wke", with the length of 3. Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
+- **Input:** `s = "rat", t = "car"`
+- **Output:** `Not Anagram`
+- **Explanation:** The strings do not contain the same characters.
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic14.c`](./logic14.c)
+- [`logic15.c`](./logic15.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 63](../day_63/README.md)
-- [➡️ Next: Day 65](../day_65/README.md)
+- [⬅️ Previous: Day 64](../day_64/README.md)
+- [➡️ Next: Day 66](../day_66/README.md)
 
