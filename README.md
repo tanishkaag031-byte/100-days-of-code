@@ -1,37 +1,40 @@
-# Day 65: Logic Enhancers 🔤
+# Day 66: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 65 / 100
+- **Day:** 66 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 115
+- **Problems Covered:** Problem 116
 
 ---
 
-## 📝 Problem 115
+## 📝 Problem 116
 
 ### Problem Statement
-Write a program to take two strings s and t as inputs (assume all characters are lowercase). The task is to determine if s and t are valid anagrams, meaning they contain the same characters with the same frequencies. Print "Anagram" if they are, otherwise "Not Anagram".
+Write a program to take an integer array nums which contains only positive integers, and an integer target as inputs. The goal is to find two distinct indices i and j in the array such that nums[i] + nums[j] equals the target. Assume exactly one solution exists and return the indices in any order. Print the two indices separated by a space as output. If no solution exists, print "-1 -1".
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `s = "anagram", t = "nagaram"`
-- **Output:** `Anagram`
-- **Explanation:** The strings contain the same characters with the same frequencies.
+- **Input:** `nums = [2,7,11,15], target = 9`
+- **Output:** `0 1`
+- **Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].
 
 #### Case 2
-- **Input:** `s = "rat", t = "car"`
-- **Output:** `Not Anagram`
-- **Explanation:** The strings do not contain the same characters.
+- **Input:** `nums = [3,2,4], target = 6`
+- **Output:** `1 2`
+
+#### Case 3
+- **Input:** `nums = [3,3], target = 6`
+- **Output:** `0 1`
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic15.c`](./logic15.c)
+- [`logic16.c`](./logic16.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 64](../day_64/README.md)
-- [➡️ Next: Day 66](../day_66/README.md)
+- [⬅️ Previous: Day 65](../day_65/README.md)
+- [➡️ Next: Day 67](../day_67/README.md)
 
