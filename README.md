@@ -1,40 +1,39 @@
-# Day 66: Logic Enhancers 🔤
+# Day 67: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 66 / 100
+- **Day:** 67 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 116
+- **Problems Covered:** Problem 117
 
 ---
 
-## 📝 Problem 116
+## 📝 Problem 117
 
 ### Problem Statement
-Write a program to take an integer array nums which contains only positive integers, and an integer target as inputs. The goal is to find two distinct indices i and j in the array such that nums[i] + nums[j] equals the target. Assume exactly one solution exists and return the indices in any order. Print the two indices separated by a space as output. If no solution exists, print "-1 -1".
+Write a program to take two sorted arrays of size m and n as input. Merge both the arrays such that the merged array is also sorted. Print the merged array.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `nums = [2,7,11,15], target = 9`
-- **Output:** `0 1`
-- **Explanation:** Because nums[0] + nums[1] == 9, we return [0, 1].
+- **Input:** `nums1 = [2,7,11,15] nums2 = [4,8,10]`
+- **Output:** `2 4 7 8 10 11 15`
 
 #### Case 2
-- **Input:** `nums = [3,2,4], target = 6`
-- **Output:** `1 2`
+- **Input:** `nums1 = [1,2,7] nums2 = [9,10,17]`
+- **Output:** `1 2 7 9 10 17`
 
 #### Case 3
-- **Input:** `nums = [3,3], target = 6`
-- **Output:** `0 1`
+- **Input:** `nums1 = [-10,-2,7] nums2 = [-3, -1, 7]`
+- **Output:** `-10 -3 -2 -1 7 7`
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic16.c`](./logic16.c)
+- [`logic17.c`](./logic17.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 65](../day_65/README.md)
-- [➡️ Next: Day 67](../day_67/README.md)
+- [⬅️ Previous: Day 66](../day_66/README.md)
+- [➡️ Next: Day 68](../day_68/README.md)
 
