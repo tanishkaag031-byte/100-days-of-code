@@ -1,39 +1,39 @@
-# Day 68: Logic Enhancers 🔤
+# Day 69: Logic Enhancers 🔤
 
 ## 📌 Overview
-- **Day:** 68 / 100
+- **Day:** 69 / 100
 - **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 118
+- **Problems Covered:** Problem 119
 
 ---
 
-## 📝 Problem 118
+## 📝 Problem 119
 
 ### Problem Statement
-Write a program to take an input array of size n. The array should contain all the integers between 0 to n except for one. Print that missing number
+Write a program to take an integer array as input. Only one element will be repeated. Print the repeated element. Try to find the result in one single iteration.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `nums1 = [0,3,2,4]`
-- **Output:** `1`
+- **Input:** `nums1 = [1,3,3,4]`
+- **Output:** `3`
 
 #### Case 2
-- **Input:** `nums1 = [1,2,3]`
-- **Output:** `0`
+- **Input:** `nums1 = [1,2,2]`
+- **Output:** `2`
 
 #### Case 3
-- **Input:** `nums1 = [0,4,3,1,5]`
-- **Output:** `2`
+- **Input:** `nums1 = [0,4,1,1,5]`
+- **Output:** `1`
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic18.c`](./logic18.c)
+- [`logic19.c`](./logic19.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 67](../day_67/README.md)
-- [➡️ Next: Day 69](../day_69/README.md)
+- [⬅️ Previous: Day 68](../day_68/README.md)
+- [➡️ Next: Day 70](../day_70/README.md)
 
