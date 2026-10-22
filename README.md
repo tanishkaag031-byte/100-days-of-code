@@ -1,39 +1,39 @@
-# Day 69: Logic Enhancers 🔤
+# Day 70: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 69 / 100
-- **Topic:** Logic Enhancers 🔤
-- **Problems Covered:** Problem 119
+- **Day:** 70 / 100
+- **Topic:** File Handling 📁
+- **Problems Covered:** Problem 120
 
 ---
 
-## 📝 Problem 119
+## 📝 Problem 120
 
 ### Problem Statement
-Write a program to take an integer array as input. Only one element will be repeated. Print the repeated element. Try to find the result in one single iteration.
+Write a program to take a string input. Change it to sentence case.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `nums1 = [1,3,3,4]`
-- **Output:** `3`
+- **Input:** `str = I am trying to build logic.`
+- **Output:** `I Am Trying To Build Logic`
 
 #### Case 2
-- **Input:** `nums1 = [1,2,2]`
-- **Output:** `2`
+- **Input:** `str = The classes are supposed to start early.`
+- **Output:** `The Classes Are Supposed To Start Early.`
 
 #### Case 3
-- **Input:** `nums1 = [0,4,1,1,5]`
-- **Output:** `1`
+- **Input:** `str = We are going to look at 26 different test cases.`
+- **Output:** `We Are Going To Look At 26 Different Test Cases.`
 
 ---
 
 ## 💻 Solutions & Code
-- [`logic19.c`](./logic19.c)
+- [`file1.c`](./file1.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 68](../day_68/README.md)
-- [➡️ Next: Day 70](../day_70/README.md)
+- [⬅️ Previous: Day 69](../day_69/README.md)
+- [➡️ Next: Day 71](../day_71/README.md)
 
