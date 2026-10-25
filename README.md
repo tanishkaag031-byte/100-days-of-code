@@ -1,36 +1,40 @@
-# Day 72: File Handling 📁
+# Day 73: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 72 / 100
+- **Day:** 73 / 100
 - **Topic:** File Handling 📁
-- **Problems Covered:** Problem 122
+- **Problems Covered:** Problem 123
 
 ---
 
-## 📝 Problem 122
+## 📝 Problem 123
 
 ### Problem Statement
-Write a C program that opens an existing file (e.g., info.txt) and reads its contents using fgets(). The program should print all the lines to the console until EOF (end of file) is reached.
+Read a text file and count the total number of characters, words, and lines. A word is defined as a sequence of non-space characters separated by spaces or newlines.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `File: info.txt (Content: Name: Rahul\nAge: 23)`
+- **Input:**
+  ```text
+File: sample.txt (Content: Hello world\nThis is C programming)
+  ```
 - **Output:**
   ```text
-Name: Rahul
-Age: 23
+Characters: 31
+Words: 5
+Lines: 2
   ```
-- **Explanation:** The program reads each line from info.txt using fgets() and prints it until EOF.
+- **Explanation:** The file has 31 characters including spaces and newlines, 5 words, and 2 lines.
 
 ---
 
 ## 💻 Solutions & Code
-- [`file3.c`](./file3.c)
+- [`file4.c`](./file4.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 71](../day_71/README.md)
-- [➡️ Next: Day 73](../day_73/README.md)
+- [⬅️ Previous: Day 72](../day_72/README.md)
+- [➡️ Next: Day 74](../day_74/README.md)
 
