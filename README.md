@@ -1,40 +1,32 @@
-# Day 73: File Handling 📁
+# Day 74: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 73 / 100
+- **Day:** 74 / 100
 - **Topic:** File Handling 📁
-- **Problems Covered:** Problem 123
+- **Problems Covered:** Problem 124
 
 ---
 
-## 📝 Problem 123
+## 📝 Problem 124
 
 ### Problem Statement
-Read a text file and count the total number of characters, words, and lines. A word is defined as a sequence of non-space characters separated by spaces or newlines.
+Take two filenames from the user – a source file and a destination file. Copy all the content from the source file to the destination file using fgetc() and fputc().
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
-  ```text
-File: sample.txt (Content: Hello world\nThis is C programming)
-  ```
-- **Output:**
-  ```text
-Characters: 31
-Words: 5
-Lines: 2
-  ```
-- **Explanation:** The file has 31 characters including spaces and newlines, 5 words, and 2 lines.
+- **Input:** `Source File: source.txt (Content: Learning C File Handling)`
+- **Output:** `File copied successfully to destination.txt`
+- **Explanation:** Expected File (destination.txt): Learning C File Handling
 
 ---
 
 ## 💻 Solutions & Code
-- [`file4.c`](./file4.c)
+- [`file5.c`](./file5.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 72](../day_72/README.md)
-- [➡️ Next: Day 74](../day_74/README.md)
+- [⬅️ Previous: Day 73](../day_73/README.md)
+- [➡️ Next: Day 75](../day_75/README.md)
 
