@@ -1,36 +1,41 @@
-# Day 75: File Handling 📁
+# Day 76: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 75 / 100
+- **Day:** 76 / 100
 - **Topic:** File Handling 📁
-- **Problems Covered:** Problem 125
+- **Problems Covered:** Problem 126
 
 ---
 
-## 📝 Problem 125
+## 📝 Problem 126
 
 ### Problem Statement
-Open an existing file in append mode and allow the user to enter a new line of text. Append the text at the end without overwriting existing content.
+Ask the user for a filename. Check if it exists by trying to open it in read mode. If the file pointer is NULL, print an error message; otherwise, read and display its content.
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
+- **Input:** `Filename: sample.txt (File Exists: Yes)`
+- **Output:**
   ```text
-Existing File: data.txt (Content before execution: Hello world)
-User Input: This is appended text.
+File opened successfully.
+(Displays file content)
   ```
-- **Output:** `File updated successfully with appended text.`
-- **Explanation:** Output File (data.txt after execution): Hello world\nThis is appended text.
+- **Explanation:** The program opens the existing file and prints its content using fgets().
+
+#### Case 2
+- **Input:** `Filename: nofile.txt (File Exists: No)`
+- **Output:** `Error: File does not exist!`
+- **Explanation:** Since fopen() returns NULL, an error message is displayed instead of reading.
 
 ---
 
 ## 💻 Solutions & Code
-- [`file6.c`](./file6.c)
+- [`file7.c`](./file7.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 74](../day_74/README.md)
-- [➡️ Next: Day 76](../day_76/README.md)
+- [⬅️ Previous: Day 75](../day_75/README.md)
+- [➡️ Next: Day 77](../day_77/README.md)
 
