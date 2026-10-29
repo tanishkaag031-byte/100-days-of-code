@@ -1,41 +1,32 @@
-# Day 76: File Handling 📁
+# Day 77: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 76 / 100
+- **Day:** 77 / 100
 - **Topic:** File Handling 📁
-- **Problems Covered:** Problem 126
+- **Problems Covered:** Problem 127
 
 ---
 
-## 📝 Problem 126
+## 📝 Problem 127
 
 ### Problem Statement
-Ask the user for a filename. Check if it exists by trying to open it in read mode. If the file pointer is NULL, print an error message; otherwise, read and display its content.
+Write a program that reads text from input.txt, converts all lowercase letters to uppercase, and writes the result to output.txt.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `Filename: sample.txt (File Exists: Yes)`
-- **Output:**
-  ```text
-File opened successfully.
-(Displays file content)
-  ```
-- **Explanation:** The program opens the existing file and prints its content using fgets().
-
-#### Case 2
-- **Input:** `Filename: nofile.txt (File Exists: No)`
-- **Output:** `Error: File does not exist!`
-- **Explanation:** Since fopen() returns NULL, an error message is displayed instead of reading.
+- **Input:** `Input File (input.txt): Hello World\nC programming`
+- **Output:** `Output File (output.txt): HELLO WORLD\nC PROGRAMMING`
+- **Explanation:** All lowercase letters in input.txt are converted to uppercase using character manipulation before writing to output.txt.
 
 ---
 
 ## 💻 Solutions & Code
-- [`file7.c`](./file7.c)
+- [`file8.c`](./file8.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 75](../day_75/README.md)
-- [➡️ Next: Day 77](../day_77/README.md)
+- [⬅️ Previous: Day 76](../day_76/README.md)
+- [➡️ Next: Day 78](../day_78/README.md)
 
