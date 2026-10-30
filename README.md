@@ -1,32 +1,36 @@
-# Day 77: File Handling 📁
+# Day 78: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 77 / 100
+- **Day:** 78 / 100
 - **Topic:** File Handling 📁
-- **Problems Covered:** Problem 127
+- **Problems Covered:** Problem 128
 
 ---
 
-## 📝 Problem 127
+## 📝 Problem 128
 
 ### Problem Statement
-Write a program that reads text from input.txt, converts all lowercase letters to uppercase, and writes the result to output.txt.
+Read a text file and count how many vowels and consonants are in the file. Ignore digits and special characters.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `Input File (input.txt): Hello World\nC programming`
-- **Output:** `Output File (output.txt): HELLO WORLD\nC PROGRAMMING`
-- **Explanation:** All lowercase letters in input.txt are converted to uppercase using character manipulation before writing to output.txt.
+- **Input:** `File: text.txt (Content: Welcome to C language)`
+- **Output:**
+  ```text
+Vowels: 8
+Consonants: 10
+  ```
+- **Explanation:** The program iterates through each character, counts vowels (A, E, I, O, U) and consonants, ignoring other symbols.
 
 ---
 
 ## 💻 Solutions & Code
-- [`file8.c`](./file8.c)
+- [`file9.c`](./file9.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 76](../day_76/README.md)
-- [➡️ Next: Day 78](../day_78/README.md)
+- [⬅️ Previous: Day 77](../day_77/README.md)
+- [➡️ Next: Day 79](../day_79/README.md)
 
