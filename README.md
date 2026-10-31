@@ -1,36 +1,36 @@
-# Day 78: File Handling 📁
+# Day 79: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 78 / 100
+- **Day:** 79 / 100
 - **Topic:** File Handling 📁
-- **Problems Covered:** Problem 128
+- **Problems Covered:** Problem 129
 
 ---
 
-## 📝 Problem 128
+## 📝 Problem 129
 
 ### Problem Statement
-Read a text file and count how many vowels and consonants are in the file. Ignore digits and special characters.
+A file numbers.txt contains a list of integers separated by spaces. Read all integers, compute their sum and average, and print both.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `File: text.txt (Content: Welcome to C language)`
+- **Input:** `File: numbers.txt (Content: 10 20 30 40 50)`
 - **Output:**
   ```text
-Vowels: 8
-Consonants: 10
+Sum = 150
+Average = 30.00
   ```
-- **Explanation:** The program iterates through each character, counts vowels (A, E, I, O, U) and consonants, ignoring other symbols.
+- **Explanation:** The program reads integers from the file, computes their total sum (150), and calculates the average (30.00).
 
 ---
 
 ## 💻 Solutions & Code
-- [`file9.c`](./file9.c)
+- [`file10.c`](./file10.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 77](../day_77/README.md)
-- [➡️ Next: Day 79](../day_79/README.md)
+- [⬅️ Previous: Day 78](../day_78/README.md)
+- [➡️ Next: Day 80](../day_80/README.md)
 
