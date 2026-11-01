@@ -1,36 +1,39 @@
-# Day 79: File Handling 📁
+# Day 80: File Handling 📁
 
 ## 📌 Overview
-- **Day:** 79 / 100
+- **Day:** 80 / 100
 - **Topic:** File Handling 📁
-- **Problems Covered:** Problem 129
+- **Problems Covered:** Problem 130
 
 ---
 
-## 📝 Problem 129
+## 📝 Problem 130
 
 ### Problem Statement
-A file numbers.txt contains a list of integers separated by spaces. Read all integers, compute their sum and average, and print both.
+Store multiple student records (name, roll number, marks) into a file using fprintf(). Then read them using fscanf() and display each record.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `File: numbers.txt (Content: 10 20 30 40 50)`
+- **Input:**
+  ```text
+Student 1 → Name: Asha, Roll: 101, Marks: 85; Student 2 → Name: Ravi, Roll: 102, Marks: 92
+  ```
 - **Output:**
   ```text
-Sum = 150
-Average = 30.00
+Name: Asha | Roll: 101 | Marks: 85
+Name: Ravi | Roll: 102 | Marks: 92
   ```
-- **Explanation:** The program reads integers from the file, computes their total sum (150), and calculates the average (30.00).
+- **Explanation:** Expected File Content (students.txt): Asha 101 85\nRavi 102 92
 
 ---
 
 ## 💻 Solutions & Code
-- [`file10.c`](./file10.c)
+- [`file11.c`](./file11.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 78](../day_78/README.md)
-- [➡️ Next: Day 80](../day_80/README.md)
+- [⬅️ Previous: Day 79](../day_79/README.md)
+- [➡️ Next: Day 81](../day_81/README.md)
 
