@@ -1,39 +1,41 @@
-# Day 80: File Handling 📁
+# Day 81: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 80 / 100
-- **Topic:** File Handling 📁
-- **Problems Covered:** Problem 130
+- **Day:** 81 / 100
+- **Topic:** Enum 🧱
+- **Problems Covered:** Problem 131
 
 ---
 
-## 📝 Problem 130
+## 📝 Problem 131
 
 ### Problem Statement
-Store multiple student records (name, roll number, marks) into a file using fprintf(). Then read them using fscanf() and display each record.
+Create an enumeration for days (SUNDAY to SATURDAY) and print each day with its integer value.
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
-  ```text
-Student 1 → Name: Asha, Roll: 101, Marks: 85; Student 2 → Name: Ravi, Roll: 102, Marks: 92
-  ```
+- **Input:** `No input`
 - **Output:**
   ```text
-Name: Asha | Roll: 101 | Marks: 85
-Name: Ravi | Roll: 102 | Marks: 92
+SUNDAY = 0
+MONDAY = 1
+TUESDAY = 2
+WEDNESDAY = 3
+THURSDAY = 4
+FRIDAY = 5
+SATURDAY = 6
   ```
-- **Explanation:** Expected File Content (students.txt): Asha 101 85\nRavi 102 92
+- **Explanation:** Each day in the enum is automatically assigned an integer starting from 0.
 
 ---
 
 ## 💻 Solutions & Code
-- [`file11.c`](./file11.c)
+- [`enum1.c`](./enum1.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 79](../day_79/README.md)
-- [➡️ Next: Day 81](../day_81/README.md)
+- [⬅️ Previous: Day 80](../day_80/README.md)
+- [➡️ Next: Day 82](../day_82/README.md)
 
