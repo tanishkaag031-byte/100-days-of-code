@@ -1,41 +1,32 @@
-# Day 81: Enum 🧱
+# Day 82: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 81 / 100
+- **Day:** 82 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 131
+- **Problems Covered:** Problem 132
 
 ---
 
-## 📝 Problem 131
+## 📝 Problem 132
 
 ### Problem Statement
-Create an enumeration for days (SUNDAY to SATURDAY) and print each day with its integer value.
+Define an enum for traffic lights (RED, YELLOW, GREEN) and print 'Stop', 'Wait', or 'Go' based on its value.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `No input`
-- **Output:**
-  ```text
-SUNDAY = 0
-MONDAY = 1
-TUESDAY = 2
-WEDNESDAY = 3
-THURSDAY = 4
-FRIDAY = 5
-SATURDAY = 6
-  ```
-- **Explanation:** Each day in the enum is automatically assigned an integer starting from 0.
+- **Input:** `GREEN`
+- **Output:** `Go`
+- **Explanation:** When the enum value is GREEN, the program prints 'Go'.
 
 ---
 
 ## 💻 Solutions & Code
-- [`enum1.c`](./enum1.c)
+- [`ENUM2.c`](./ENUM2.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 80](../day_80/README.md)
-- [➡️ Next: Day 82](../day_82/README.md)
+- [⬅️ Previous: Day 81](../day_81/README.md)
+- [➡️ Next: Day 83](../day_83/README.md)
 
