@@ -1,32 +1,32 @@
-# Day 82: Enum 🧱
+# Day 83: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 82 / 100
+- **Day:** 83 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 132
+- **Problems Covered:** Problem 133
 
 ---
 
-## 📝 Problem 132
+## 📝 Problem 133
 
 ### Problem Statement
-Define an enum for traffic lights (RED, YELLOW, GREEN) and print 'Stop', 'Wait', or 'Go' based on its value.
+Create an enum for months and print how many days each month has.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `GREEN`
-- **Output:** `Go`
-- **Explanation:** When the enum value is GREEN, the program prints 'Go'.
+- **Input:** `FEB`
+- **Output:** `28 or 29 days`
+- **Explanation:** February has 28 days in a normal year and 29 in a leap year.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM2.c`](./ENUM2.c)
+- [`ENUM3.c`](./ENUM3.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 81](../day_81/README.md)
-- [➡️ Next: Day 83](../day_83/README.md)
+- [⬅️ Previous: Day 82](../day_82/README.md)
+- [➡️ Next: Day 84](../day_84/README.md)
 
