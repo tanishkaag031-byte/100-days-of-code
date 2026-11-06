@@ -1,32 +1,37 @@
-# Day 84: Enum 🧱
+# Day 85: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 84 / 100
+- **Day:** 85 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 134
+- **Problems Covered:** Problem 135
 
 ---
 
-## 📝 Problem 134
+## 📝 Problem 135
 
 ### Problem Statement
-Define an enum with SUCCESS, FAILURE, and TIMEOUT, and print messages accordingly.
+Assign explicit values starting from 10 and print them.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `FAILURE`
-- **Output:** `Operation failed`
-- **Explanation:** FAILURE corresponds to a failed operation message.
+- **Input:** `No input`
+- **Output:**
+  ```text
+A=10
+B=11
+C=12
+  ```
+- **Explanation:** Enum values can be explicitly assigned; subsequent values auto-increment.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM4.c`](./ENUM4.c)
+- [`ENUM5.c`](./ENUM5.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 83](../day_83/README.md)
-- [➡️ Next: Day 85](../day_85/README.md)
+- [⬅️ Previous: Day 84](../day_84/README.md)
+- [➡️ Next: Day 86](../day_86/README.md)
 
