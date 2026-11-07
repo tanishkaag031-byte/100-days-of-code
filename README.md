@@ -1,37 +1,32 @@
-# Day 85: Enum 🧱
+# Day 86: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 85 / 100
+- **Day:** 86 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 135
+- **Problems Covered:** Problem 136
 
 ---
 
-## 📝 Problem 135
+## 📝 Problem 136
 
 ### Problem Statement
-Assign explicit values starting from 10 and print them.
+Use enum to represent menu choices (ADD, SUBTRACT, MULTIPLY) and perform operations using switch.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `No input`
-- **Output:**
-  ```text
-A=10
-B=11
-C=12
-  ```
-- **Explanation:** Enum values can be explicitly assigned; subsequent values auto-increment.
+- **Input:** `ADD 10 20`
+- **Output:** `30`
+- **Explanation:** The enum ADD triggers addition of 10 and 20.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM5.c`](./ENUM5.c)
+- [`ENUM6.c`](./ENUM6.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 84](../day_84/README.md)
-- [➡️ Next: Day 86](../day_86/README.md)
+- [⬅️ Previous: Day 85](../day_85/README.md)
+- [➡️ Next: Day 87](../day_87/README.md)
 
