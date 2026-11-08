@@ -1,32 +1,32 @@
-# Day 86: Enum 🧱
+# Day 87: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 86 / 100
+- **Day:** 87 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 136
+- **Problems Covered:** Problem 137
 
 ---
 
-## 📝 Problem 136
+## 📝 Problem 137
 
 ### Problem Statement
-Use enum to represent menu choices (ADD, SUBTRACT, MULTIPLY) and perform operations using switch.
+Create an enum for user roles (ADMIN, USER, GUEST) and display messages based on role.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `ADD 10 20`
-- **Output:** `30`
-- **Explanation:** The enum ADD triggers addition of 10 and 20.
+- **Input:** `GUEST`
+- **Output:** `Welcome Guest!`
+- **Explanation:** Enum value determines which message is displayed.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM6.c`](./ENUM6.c)
+- [`ENUM7.c`](./ENUM7.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 85](../day_85/README.md)
-- [➡️ Next: Day 87](../day_87/README.md)
+- [⬅️ Previous: Day 86](../day_86/README.md)
+- [➡️ Next: Day 88](../day_88/README.md)
 
