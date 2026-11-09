@@ -1,32 +1,37 @@
-# Day 87: Enum 🧱
+# Day 88: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 87 / 100
+- **Day:** 88 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 137
+- **Problems Covered:** Problem 138
 
 ---
 
-## 📝 Problem 137
+## 📝 Problem 138
 
 ### Problem Statement
-Create an enum for user roles (ADMIN, USER, GUEST) and display messages based on role.
+Print all enum names and integer values using a loop.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `GUEST`
-- **Output:** `Welcome Guest!`
-- **Explanation:** Enum value determines which message is displayed.
+- **Input:** `No input`
+- **Output:**
+  ```text
+RED=0
+YELLOW=1
+GREEN=2
+  ```
+- **Explanation:** Iterating through enum values prints each constant with its assigned integer.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM7.c`](./ENUM7.c)
+- [`ENUM8.c`](./ENUM8.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 86](../day_86/README.md)
-- [➡️ Next: Day 88](../day_88/README.md)
+- [⬅️ Previous: Day 87](../day_87/README.md)
+- [➡️ Next: Day 89](../day_89/README.md)
 
