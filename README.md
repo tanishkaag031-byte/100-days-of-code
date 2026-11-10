@@ -1,37 +1,32 @@
-# Day 88: Enum 🧱
+# Day 89: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 88 / 100
+- **Day:** 89 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 138
+- **Problems Covered:** Problem 139
 
 ---
 
-## 📝 Problem 138
+## 📝 Problem 139
 
 ### Problem Statement
-Print all enum names and integer values using a loop.
+Show that enums store integers by printing assigned values.
 
 ### Test Cases
 
 #### Case 1
 - **Input:** `No input`
-- **Output:**
-  ```text
-RED=0
-YELLOW=1
-GREEN=2
-  ```
-- **Explanation:** Iterating through enum values prints each constant with its assigned integer.
+- **Output:** `SUCCESS=0, FAILURE=1, TIMEOUT=2`
+- **Explanation:** Enum constants are internally stored as integer values starting from 0.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM8.c`](./ENUM8.c)
+- [`ENUM9.c`](./ENUM9.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 87](../day_87/README.md)
-- [➡️ Next: Day 89](../day_89/README.md)
+- [⬅️ Previous: Day 88](../day_88/README.md)
+- [➡️ Next: Day 90](../day_90/README.md)
 
