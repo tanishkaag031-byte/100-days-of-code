@@ -1,32 +1,32 @@
-# Day 89: Enum 🧱
+# Day 90: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 89 / 100
+- **Day:** 90 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 139
+- **Problems Covered:** Problem 140
 
 ---
 
-## 📝 Problem 139
+## 📝 Problem 140
 
 ### Problem Statement
-Show that enums store integers by printing assigned values.
+Define a struct with enum Gender and print person's gender.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `No input`
-- **Output:** `SUCCESS=0, FAILURE=1, TIMEOUT=2`
-- **Explanation:** Enum constants are internally stored as integer values starting from 0.
+- **Input:** `Gender=MALE`
+- **Output:** `Male`
+- **Explanation:** The enum inside the struct allows representing gender as a named constant.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM9.c`](./ENUM9.c)
+- [`ENUM10.c`](./ENUM10.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 88](../day_88/README.md)
-- [➡️ Next: Day 90](../day_90/README.md)
+- [⬅️ Previous: Day 89](../day_89/README.md)
+- [➡️ Next: Day 91](../day_91/README.md)
 
