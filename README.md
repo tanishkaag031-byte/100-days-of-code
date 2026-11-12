@@ -1,32 +1,37 @@
-# Day 90: Enum 🧱
+# Day 91: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 90 / 100
+- **Day:** 91 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 140
+- **Problems Covered:** Problem 141
 
 ---
 
-## 📝 Problem 140
+## 📝 Problem 141
 
 ### Problem Statement
-Define a struct with enum Gender and print person's gender.
+Define a structure Student with name, roll_no, and marks, then read and print one student's data.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `Gender=MALE`
-- **Output:** `Male`
-- **Explanation:** The enum inside the struct allows representing gender as a named constant.
+- **Input:**
+  ```text
+Name: Asha
+Roll: 101
+Marks: 90
+  ```
+- **Output:** `Name: Asha | Roll: 101 | Marks: 90`
+- **Explanation:** The program stores and displays one student's details using structure members.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM10.c`](./ENUM10.c)
+- [`ENUM11.c`](./ENUM11.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 89](../day_89/README.md)
-- [➡️ Next: Day 91](../day_91/README.md)
+- [⬅️ Previous: Day 90](../day_90/README.md)
+- [➡️ Next: Day 92](../day_92/README.md)
 
