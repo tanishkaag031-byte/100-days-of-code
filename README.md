@@ -1,37 +1,32 @@
-# Day 91: Enum 🧱
+# Day 92: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 91 / 100
+- **Day:** 92 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 141
+- **Problems Covered:** Problem 142
 
 ---
 
-## 📝 Problem 141
+## 📝 Problem 142
 
 ### Problem Statement
-Define a structure Student with name, roll_no, and marks, then read and print one student's data.
+Store details of 5 students in an array of structures and print all.
 
 ### Test Cases
 
 #### Case 1
-- **Input:**
-  ```text
-Name: Asha
-Roll: 101
-Marks: 90
-  ```
-- **Output:** `Name: Asha | Roll: 101 | Marks: 90`
-- **Explanation:** The program stores and displays one student's details using structure members.
+- **Input:** `Details of 5 students (Name, Roll, Marks)`
+- **Output:** `Tabular list of all 5 students with their details`
+- **Explanation:** The array of structures stores multiple student records and displays them in a table.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM11.c`](./ENUM11.c)
+- [`ENUM12.c`](./ENUM12.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 90](../day_90/README.md)
-- [➡️ Next: Day 92](../day_92/README.md)
+- [⬅️ Previous: Day 91](../day_91/README.md)
+- [➡️ Next: Day 93](../day_93/README.md)
 
