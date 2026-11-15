@@ -1,32 +1,32 @@
-# Day 93: Enum 🧱
+# Day 94: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 93 / 100
+- **Day:** 94 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 143
+- **Problems Covered:** Problem 144
 
 ---
 
-## 📝 Problem 143
+## 📝 Problem 144
 
 ### Problem Statement
-Find and print the student with the highest marks.
+Write a function that accepts a structure as parameter and prints its members.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `3 students: Ravi 101 95, Sita 102 85, Aman 103 88`
-- **Output:** `Topper: Ravi (Marks: 95)`
-- **Explanation:** Program compares marks of all students and prints the one with the highest.
+- **Input:** `Student: Neha 104 92`
+- **Output:** `Name: Neha | Roll: 104 | Marks: 92`
+- **Explanation:** The structure is passed by value to a function that prints its data.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM13.c`](./ENUM13.c)
+- [`ENUM14.c`](./ENUM14.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 92](../day_92/README.md)
-- [➡️ Next: Day 94](../day_94/README.md)
+- [⬅️ Previous: Day 93](../day_93/README.md)
+- [➡️ Next: Day 95](../day_95/README.md)
 
