@@ -1,32 +1,32 @@
-# Day 95: Enum 🧱
+# Day 96: Enum 🧱
 
 ## 📌 Overview
-- **Day:** 95 / 100
+- **Day:** 96 / 100
 - **Topic:** Enum 🧱
-- **Problems Covered:** Problem 145
+- **Problems Covered:** Problem 146
 
 ---
 
-## 📝 Problem 145
+## 📝 Problem 146
 
 ### Problem Statement
-Return a structure containing top student's details from a function.
+Create Employee structure with nested Date structure for joining date and print details.
 
 ### Test Cases
 
 #### Case 1
-- **Input:** `3 students: Riya 101 89, Karan 102 96, Meena 103 92`
-- **Output:** `Top Student: Karan | Roll: 102 | Marks: 96`
-- **Explanation:** The function returns the structure containing the highest scoring student's details.
+- **Input:** `Employee: Raj | ID: 11 | Joining Date: 12 05 2020`
+- **Output:** `Name: Raj | ID: 11 | Joining Date: 12/05/2020`
+- **Explanation:** Nested structure Date is used inside Employee structure to represent joining date.
 
 ---
 
 ## 💻 Solutions & Code
-- [`ENUM15.c`](./ENUM15.c)
+- [`ENUM16.c`](./ENUM16.c)
 
 ---
 
 ## 🧭 Navigation
-- [⬅️ Previous: Day 94](../day_94/README.md)
-- [➡️ Next: Day 96](../day_96/README.md)
+- [⬅️ Previous: Day 95](../day_95/README.md)
+- [➡️ Next: Day 97](../day_97/README.md)
 
